@@ -1,0 +1,33 @@
+# Ignore Mac system files
+.DS_Store
+
+# Ignore text editor files
+.vscode/
+.idea/
+
+# Ignore virtual environments (if using Python)
+venv/
+env/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore LaTeX build files (if using LaTeX)
+*.aux
+*.log
+*.out
+*.toc
+
+# Ignore PDFs, generated output files
+*.pdf
+*.docx
+*.epub
+
+# Ignore any secrets or personal config files
+.env
+*.key
+*.pem
+
+# Ignore other large files or sensitive files
+large_file.zip
