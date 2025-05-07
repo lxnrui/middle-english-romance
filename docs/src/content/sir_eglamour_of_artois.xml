@@ -7,49 +7,36 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 		<fileDesc>
 			<titleStmt>
 				<title type="main">Sir Eglamour of Artois</title>
-				<title type="sub">Douce 261</title>
+				<title type="sub">Bodleian Library MS. Douce 261</title>
 			</titleStmt>
 			<publicationStmt>
-				<pubPlace>Bloomington, IN</pubPlace>
-				<publisher>Digital Culture Lab, School of Library &amp; Information Science, Indiana University</publisher>
+				<pubPlace>Leiden, the Netherlands</pubPlace>
+				<publisher>Self-Publishing</publisher>
 				<availability status="free">
-					<p>Copyright © 2012. TEI Boilerplate</p>
+					<p>Copyright © 2025. Xinrui Li</p>
 					<p>
 					<ref n="license" target="http://creativecommons.org/licenses/by/3.0/"><figure style="border-width:0;"><figDesc>Creative Commons License</figDesc><graphic url="http://i.creativecommons.org/l/by/3.0/80x15.png"/></figure></ref><lb />TEI Boilerplate is licensed under a <ref n="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</ref>.
 					</p>
 				</availability>
 			</publicationStmt>
 			<sourceDesc>
-			<!-- For born digital documents, use something like: -->
-                 <p>This TEI/XML document is the original source</p>
-         	<!-- For documents transcribed from another source or sources, use <biblStruct>. -->
-         	<!--
 				<biblStruct>
 					<analytic>
-						<author>
-						</author>
-						<title>
+						<title> Romances (Sir Isenbras, Sir Degore, The Jest of Sir Gawayne, Sir Eglamour of Artois).
 						</title>
 					</analytic>
 					<monogr>
-						<editor>
-						</editor>
-						<title>
+						<title> Bodleian Library MS. Douce 261
 						</title>
 						<imprint>
-							<pubPlace>
+							<pubPlace> Oxford, England
 							</pubPlace>
-							<publisher>
+							<publisher> Bodleian Libraries, University of Oxford
 							</publisher>
-							<date when="2011" /> 
+							<date when="01-08-2018" /> 
 						</imprint>
 					</monogr>
 				</biblStruct>
-			-->
-			<!-- The loosely structured <bibl> is also an option -->
-			<!--
-			<bibl></bibl>
-			-->
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
