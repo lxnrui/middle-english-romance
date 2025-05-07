@@ -487,7 +487,18 @@
 	 </span>
 
        </xsl:template>
-       
+	
+       <xsl:template match="choice">
+  <xsl:element name="span">
+    <xsl:if test="gloss">
+      <xsl:attribute name="title">
+        <xsl:value-of select="gloss"/>
+      </xsl:attribute>
+    </xsl:if>
+    <xsl:value-of select="orig"/>
+  </xsl:element>
+</xsl:template>
+
        <xsl:template match="tei:pb[@facs]">
 	 <xsl:param name="pn">
 	   <xsl:number count="//tei:pb" level="any"/>    
