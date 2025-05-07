@@ -334,19 +334,6 @@
 	   </xsl:for-each>
 	 </style>
        </xsl:template>
-
-	<xsl:template match="term">
-  <span class="tei-term" data-tei-id="{@xml:id}">
-    <xsl:apply-templates select="node()[not(self::gloss)]"/>
-    <xsl:apply-templates select="gloss"/>
-  </span>
-</xsl:template>
-
-<xsl:template match="gloss">
-  <span class="tei-gloss" data-tei-target="{@target}" hidden="hidden">
-    <xsl:apply-templates/>
-  </span>
-</xsl:template>
 	
        <xsl:template name="tokenize">
 	 <xsl:param name="string" />
