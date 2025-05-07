@@ -338,7 +338,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 					<l> Ye are a knyght of lyttell lande</l>
 					<l> And moche woulde haue more.</l>
 					<l> Yf ye ſhoulde to that lady gone</l>
-					<l> And ſhewe to her hearte alone</l>
+					<l> And <term xml:id="t3">ſhewe</term> to her hearte alone</l>
 					<l> She lightlye woulde let youe fare</l>
 					<l> The man that hewith ouer hye</l>
 					<l> Some chyppe falleth in hys cye</l>
@@ -365,6 +365,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
         <list>
           <item><term ref="#t1">TEI</term>: Text Encoding Initiative</item>
           <item><term ref="#t2">XSLT</term>: eXtensible Stylesheet Language Transformations</item>
+	  <item><term ref="#t3">ſhewe</term>: Let's check it together</item>
         </list>
       </div>
 			</div>
