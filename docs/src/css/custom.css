@@ -1,12 +1,15 @@
-div[type="glossary"] { 
-  display: none;
+div[type="glossary"] {
+  background: #f8f8f8;
   border-left: 3px solid #0066cc;
   padding: 1em;
-  margin: 1em 0;
-  background: #f8f8f8;
+  margin: 2em 0;
 }
 
-/* Show when printed */
-@media print {
-  div[type="glossary"] { display: block; }
+
+term {
+  color: #0066cc;
+  cursor: help;
+}
+term:target {
+  background: #fffacd;
 }
