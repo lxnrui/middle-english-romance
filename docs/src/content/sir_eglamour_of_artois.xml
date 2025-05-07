@@ -327,9 +327,10 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 		<body>
 			<div type="romance" xml:id="sireglamour">
     <index indexName="text"/>
-			<ref target="manuscript_information.xml" type="button">About the manuscript</ref>
-			<ref target="demo.xml" type="button">About Sir Eglamour</ref>
-			<ref target="hardy_a_singer_asleep.xml" type="button">About Middle English romances</ref>
+			<p><ref target="manuscript_information.xml" type="button">About the manuscript</ref></p>
+			<p><ref target="demo.xml" type="button">About Sir Eglamour</ref></p>
+			<p><ref target="hardy_a_singer_asleep.xml" type="button">About Middle English romances</ref></p>
+
 				<pb n="f.026v" type="folio" facs="../images/Bodleian-Library-MS-Douce-261_00014_fol-026v_reduced.jpg"/>
 				<lg>
 					<l> Ye are a knyght of lyttell lande</l>
