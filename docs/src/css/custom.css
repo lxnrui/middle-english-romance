@@ -1,15 +1,51 @@
 div[type="glossary"] {
-  background: #f8f8f8;
-  border-left: 3px solid #0066cc;
-  padding: 1em;
+  background: #f8f4e8;       
+  border: 1px solid #d4c9a8; 
+  border-radius: 4px;        
+  padding: 1.5em;
   margin: 2em 0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  font-family: "Gentium Book Basic", serif;
+  color: #3a3329;           
+  font-size: 0.95em;
+  line-height: 1.6;
+}
+
+div[type="glossary"] > head {
+  display: block;
+  font-family: Arvo, sans-serif;
+  font-weight: bold;
+  font-size: 1.3em;
+  color: #5f0000;           
+  margin-bottom: 0.8em;
+  padding-bottom: 0.4em;
+  border-bottom: 1px solid #d4c9a8;
+}
+
+div[type="glossary"] list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+div[type="glossary"] item {
+  padding: 0.6em 0;
+  border-bottom: 1px dotted #d4c9a8;
+}
+
+div[type="glossary"] item:last-child {
+  border-bottom: none;
 }
 
 
-term {
-  color: #0066cc;
+div[type="glossary"] term {
+  font-weight: bold;
+  color: #5f0000;           
+  padding-right: 0.4em;
+}
+
+
+div[type="glossary"] term:hover {
+  text-decoration: underline;
   cursor: help;
-}
-term:target {
-  background: #fffacd;
 }
