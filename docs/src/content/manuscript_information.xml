@@ -271,16 +271,21 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 		</encodingDesc>
 	</teiHeader>
 	<text>
-		<body>
-			<tei:body>
-  <tei:p>
-    <tei:w type="word1">Hello</tei:w>
-    <tei:note type="gloss">A greeting</tei:note>
-  </tei:p>
-</tei:body>
+		<text>
+  <tei:body>
+    <tei:p>
+      <tei:w type="word1">Hello</tei:w>
+      <!-- Note with gloss type -->
+      <tei:note type="gloss">A greeting</tei:note>
+    </tei:p>
+    <tei:p>
+      <tei:w type="word2">World</tei:w>
+      <tei:note type="gloss">The planet</tei:note>
+    </tei:p>
+  </tei:body>
+  
+  <ref target="sir_eglamour_of_artois.xml" type="button">Go back to the manuscript</ref>
+</text>
 
-				<ref target="sir_eglamour_of_artois.xml" type="button">Go back to the manuscript</ref>
-			</div>
-		</body>
 	</text>
 </TEI>
