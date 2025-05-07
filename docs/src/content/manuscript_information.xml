@@ -273,7 +273,13 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 
 		<text>
  
-       <p>I am full of information.</p>
+        <p>This uses <term xml:id="t1">TEI</term>.</p>
+  <div type="glossary">
+    <list>
+      <item><term ref="#t1">TEI</term>: Text Encoding Initiative</item>
+    </list>
+  </div>
+			
   <ref target="sir_eglamour_of_artois.xml" type="button">Go back to the manuscript</ref>
 
 	</text>
