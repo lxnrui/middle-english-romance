@@ -48,6 +48,34 @@ function init(){
 	var teiTitle = document.querySelector("tei-title");
 	if(htmlTitle != null && teiTitle != null)
 		htmlTitle.textContent = teiTitle.textContent;
+	 initGlossary();
+}
+
+function initGlossary() {
+  // Make glossary terms clickable
+  var terms = document.querySelectorAll('term[id]');
+  
+  for (var i = 0; i < terms.length; i++) {
+    terms[i].addEventListener('click', function() {
+      var targetId = this.getAttribute('xml:id') || this.id;
+      var glossaryEntry = document.querySelector('term[ref="#' + targetId + '"]');
+      
+      if (glossaryEntry) {
+        // Scroll to the entry
+        glossaryEntry.scrollIntoView({
+          behavior: 'smooth',
+          block: 'center'
+        });
+
+        // Highlight temporarily
+        var listItem = glossaryEntry.closest('item');
+        listItem.style.backgroundColor = '#fffacd';
+        setTimeout(function() {
+          listItem.style.backgroundColor = '';
+        }, 2000);
+      }
+    });
+  }
 }
 
 function blockUI(){
