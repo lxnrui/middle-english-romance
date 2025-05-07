@@ -30,18 +30,19 @@ function addPageBreaks(){
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-  const terms = document.querySelectorAll('term');
+  // Initialize all terms
+  const terms = document.querySelectorAll('.tei-term');
   
   terms.forEach(term => {
-    const gloss = term.querySelector('gloss');
-    if (gloss) {
-      // Optional: Add ARIA attributes for accessibility
-      term.setAttribute('aria-describedby', gloss.id || gloss.getAttribute('target'));
-
-      term.addEventListener('mouseenter', function() {
-        // Additional actions on hover if needed
-      });
-    }
+    const gloss = term.querySelector('.tei-gloss');
+    if (!gloss) return;
+    
+    // Make terms keyboard accessible
+    term.setAttribute('tabindex', '0');
+    
+    // Set ARIA attributes
+    term.setAttribute('aria-describedby', term.getAttribute('data-tei-id') + '-gloss');
+    gloss.setAttribute('id', term.getAttribute('data-tei-id') + '-gloss');
   });
 });
 
