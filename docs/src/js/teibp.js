@@ -29,7 +29,39 @@ function addPageBreaks(){
 		breaks[i].style.display="block";
 }
 
+function addGlosses(){
+
+	var glossElements = document.querySelectorAll('tei\\:note[type="gloss"], tei\\:gloss');
+	glossElements.forEach(function(glossElement) {
+	
+		glossElement.addEventListener('mouseover', function(e) {
+			var glossText = glossElement.textContent; // Get the gloss content
+
+			
+			var tooltip = document.createElement('div');
+			tooltip.classList.add('gloss-tooltip');
+			tooltip.textContent = glossText;
+
+			
+			var rect = glossElement.getBoundingClientRect();
+			tooltip.style.position = 'absolute';
+			tooltip.style.left = rect.left + 'px';
+			tooltip.style.top = rect.top + rect.height + 5 + 'px'; // 5px for a small gap
+			document.body.appendChild(tooltip);
+		});
+
+		glossElement.addEventListener('mouseout', function() {
+			
+			var tooltip = document.querySelector('.gloss-tooltip');
+			if (tooltip) {
+				tooltip.remove();
+			}
+		});
+	});
+}
+
 function init(){
+
 	var pbt = document.getElementById('pbToggle');
 	if(pbt != null){
 		pbt.onclick = function(){
@@ -47,6 +79,7 @@ function init(){
 	var teiTitle = document.querySelector("tei-title");
 	if(htmlTitle != null && teiTitle != null)
 		htmlTitle.textContent = teiTitle.textContent;
+	addGlosses();
 }
 
 function blockUI(){
