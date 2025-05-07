@@ -334,7 +334,13 @@
 	   </xsl:for-each>
 	 </style>
        </xsl:template>
-       
+
+	<xsl:template match="gloss">
+  <gloss>
+    <xsl:apply-templates select="@*|node()"/>
+  </gloss>
+</xsl:template>
+	
        <xsl:template name="tokenize">
 	 <xsl:param name="string" />
 	 <xsl:param name="delimiter" select="' '" />
