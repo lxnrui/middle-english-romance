@@ -321,6 +321,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 						style="margin-top:0;">Joseph
 						Mazzini</persName>
 				</head>
+				<pb n="f.026v" type="folio" facs="../images/Bodleian-Library-MS-Douce-261_00014_fol-026v_reduced.jpg"/>
 				<lg>
 					<l n="1"> Ye are a knyght of lyttell lande</l>
 					<l n="2"> And moche woulde haue more.</l>
@@ -346,10 +347,6 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 						<placeName><country key="gb-eng">England</country></placeName>, and <placeName><country key="fr">France</country></placeName> from her prison,</l>
 					<l n="18" rendition="#l-indent-02"> Sisters, a star by a star.</l>
 				</lg>
-				<note>
-				<label>folio:</label>
-				<pb n="f.026v" type="folio" facs="../images/Bodleian-Library-MS-Douce-261_00014_fol-026v_reduced.jpg"/>
-				</note>
 					<lg>
 					<l n="19"> I bring you the sword of a song,</l>
 					<l n="20" rendition="#l-indent-01"> The sword of my spirit's desire,</l>
