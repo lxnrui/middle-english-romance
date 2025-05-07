@@ -272,15 +272,13 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 	</teiHeader>
 	<text>
 		<body>
-			<div type="manuscript information" xml:id="douce261">
-    <index indexName="text"/>
+			<tei:body>
+  <tei:p>
+    <tei:w type="word1">Hello</tei:w>
+    <tei:note type="gloss">A greeting</tei:note>
+  </tei:p>
+</tei:body>
 
-			<p>
-      The quick brown fox <note type="gloss">a speedy animal</note> jumps over the lazy dog.
-    </p>
-    <p>
-      The lazy dog <note type="gloss">a slow dog</note> sleeps.
-    </p>
 				<ref target="sir_eglamour_of_artois.xml" type="button">Go back to the manuscript</ref>
 			</div>
 		</body>
