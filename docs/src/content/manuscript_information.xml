@@ -272,16 +272,10 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 	</teiHeader>
 
 		<text>
-  <tei:body>
-    <tei:p>
-      <tei:w type="word1">Hello</tei:w>
-      <tei:note type="gloss">A greeting</tei:note>
-    </tei:p>
-    <tei:p>
-      <tei:w type="word2">World</tei:w>
-      <tei:note type="gloss">The planet</tei:note>
-    </tei:p>
-  </tei:body>
+ 
+        <p>This sentence contains several <term xml:id="t1">linguistic<gloss target="#t1">Relating to language or the study of language</gloss></term> 
+        examples that demonstrate <term xml:id="t2">hover-activated<gloss target="#t2">Displayed when mouse pointer is positioned over the term</gloss></term> 
+        glosses in <term xml:id="t3">TEI<gloss target="#t3">Text Encoding Initiative - An international standard for text representation</gloss></term> documents.</p>
   
   <ref target="sir_eglamour_of_artois.xml" type="button">Go back to the manuscript</ref>
 
