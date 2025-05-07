@@ -311,7 +311,16 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 	</teiHeader>
 	<text>
 		<body>
-				<pb n="[v]" facs="../images/Bodleian-Library-MS-Douce-261_00014_fol-026v_reduced.jpg"/>
+			<div type="dedication" xml:id="acs0000001-02-i000">
+				<index corresp="acs0000001-02-i000-md.xml" indexName="text"/>
+				<pb n="[v]" facs="../images/acs0000001-02-010.jpg"/>
+				<head rendition="#center #uppercase">Dedication
+					<hi rendition="#x-small #block"
+						style="margin-top:2em;">to</hi>
+					<persName key="mazzini" rendition="#block"
+						style="margin-top:0;">Joseph
+						Mazzini</persName>
+				</head>
 				<lg>
 					<l n="1"> Ye are a knyght of lyttell lande</l>
 					<l n="2"> And moche woulde haue more.</l>
