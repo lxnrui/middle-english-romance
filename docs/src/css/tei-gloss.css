@@ -1,26 +1,41 @@
-term {
-  text-decoration: underline dotted;
-  cursor: help;
+/* Term styling */
+.tei-term {
   position: relative;
+  display: inline;
+  border-bottom: 1px dotted #36c;
+  color: #36c;
+  cursor: help;
 }
 
-
-gloss {
-  display: none;
+/* Gloss styling */
+.tei-gloss {
   position: absolute;
-  background-color: #f8f8f8;
-  border: 1px solid #ccc;
-  padding: 5px;
-  border-radius: 3px;
-  z-index: 100;
-  width: 200px;
   bottom: 100%;
   left: 50%;
   transform: translateX(-50%);
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 0.5em;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+  min-width: 200px;
+  max-width: 300px;
+  z-index: 1000;
+  display: none;
 }
 
-
-term:hover gloss {
+/* Show gloss on hover */
+.tei-term:hover .tei-gloss {
   display: block;
+  animation: fadeIn 0.15s;
+}
+
+/* Accessibility focus */
+.tei-term:focus .tei-gloss {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
