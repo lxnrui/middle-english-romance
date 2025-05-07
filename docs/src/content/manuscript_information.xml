@@ -274,7 +274,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 		<body>
 			<div type="manuscript information" xml:id="douce261">
     <index indexName="text"/>
-        <l>information</l>
+        <l>information<choice><orig>wo</orig><gloss>grief, sorrow</gloss></choice></l>
 
 				<ref target="sir_eglamour_of_artois.xml" type="button">Go back to the manuscript</ref>
 			</div>
