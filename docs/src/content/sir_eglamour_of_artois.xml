@@ -46,6 +46,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 							<date when="2018-08-01" /> 
 						</imprint>
 					</monogr>
+					</biblStruct>
 					<msDesc>
 				 <msIdentifier>
 					  <settlement>Oxford</settlement>
@@ -85,7 +86,6 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 				  </origin>
 				 </history>
 			</msDesc>
-				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
