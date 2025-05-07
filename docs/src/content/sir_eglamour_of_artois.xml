@@ -327,7 +327,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 		<body>
 			<div type="romance" xml:id="sireglamour">
     <index indexName="text"/>
-			<ref target="manuscript_information.xml" type="manuscript information"/>
+			<ref target="manuscript_information.xml" type="button">manuscript information</ref>
 				<pb n="f.026v" type="folio" facs="../images/Bodleian-Library-MS-Douce-261_00014_fol-026v_reduced.jpg"/>
 				<lg>
 					<l> Ye are a knyght of lyttell lande</l>
