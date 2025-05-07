@@ -336,49 +336,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 					<l n="11"> And Dukes that are bolde.</l>
 					<l n="12"> And many a bolde Baron alfo</l>
 				</lg>
-				<lg>
-					<l n="13"> If a perfume be left, if a bloom,</l>
-					<l n="14" rendition="#l-indent-01"> Let it live till <placeName>
-						<country key="it">Italia</country>
-					</placeName> be risen,</l>
-					<l n="15" rendition="#l-indent-02"> To be strewn in the dust of her car</l>
-					<l n="16"> When her voice shall awake from the tomb</l>
-					<l n="17" rendition="#l-indent-01">
-						<placeName><country key="gb-eng">England</country></placeName>, and <placeName><country key="fr">France</country></placeName> from her prison,</l>
-					<l n="18" rendition="#l-indent-02"> Sisters, a star by a star.</l>
-				</lg>
-					<lg>
-					<l n="19"> I bring you the sword of a song,</l>
-					<l n="20" rendition="#l-indent-01"> The sword of my spirit's desire,</l>
-					<l n="21" rendition="#l-indent-02"> Feeble; but laid at your feet,</l>
-					<l n="22"> That which was weak shall be strong,</l>
-					<l n="23" rendition="#l-indent-01"> That which was cold shall take fire,</l>
-					<l n="24" rendition="#l-indent-02"> That which was bitter be sweet.</l>
-				</lg>
-				<lg>
-					<l n="25"> It was wrought not with hands to smite,</l>
-					<l n="26" rendition="#l-indent-01"> Nor hewn after swordsmiths' fashion,</l>
-					<l n="27" rendition="#l-indent-02"> Nor tempered on anvil of steel;</l>
-					<l n="28"> But with visions and dreams of the night,</l>
-					<l n="29" rendition="#l-indent-01"> But with hope, and the patience of passion,</l>
-					<l n="30" rendition="#l-indent-02"> And the signet of love for a seal.</l>
-				</lg>
-				<lg>
-					<l n="31"> Be it witness, till one more strong,</l>
-					<l n="32" rendition="#l-indent-01"> Till a loftier lyre, till a rarer</l>
-					<l n="33" rendition="#l-indent-02"> Lute praise her better than I,</l>
-					<l n="34"> Be it witness before you, my song,</l>
-					<l n="35" rendition="#l-indent-01"> That I knew her, the world's banner-bearer,</l>
-					<l n="36" rendition="#l-indent-02"> Who shall cry the republican cry.</l>
-				</lg>
-				<lg>
-					<l n="37"> Yea, even she as at first,</l>
-					<l n="38" rendition="#l-indent-01"> Yea, she alone and none other,</l>
-					<l n="39" rendition="#l-indent-02"> Shall cast down, shall build up, shall bring home;</l>
-					<l n="40"> Slake earth's hunger and thirst,</l>
-					<l n="41" rendition="#l-indent-01"> Lighten, and lead as a mother;</l>
-					<l n="42" rendition="#l-indent-02"> First name of the world's names, <placeName><settlement key="rome" type="city">Rome</settlement></placeName>.</l>
-				</lg>
+				
 			</div>
 		</body>
 	</text>
