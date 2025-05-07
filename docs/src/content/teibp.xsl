@@ -487,7 +487,7 @@
 	 </span>
 
        </xsl:template>
-
+       
        <xsl:template match="tei:pb[@facs]">
 	 <xsl:param name="pn">
 	   <xsl:number count="//tei:pb" level="any"/>    
