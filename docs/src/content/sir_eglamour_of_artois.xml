@@ -13,25 +13,11 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 				<pubPlace>Leiden, the Netherlands</pubPlace>
 				<publisher>Self-Publishing</publisher>
 				<availability status="free">
+					<p>Copyright © 2025. Xinrui Li</p>
 					<p>
-  The transcription is made by © 2025 Xinrui Li. It is based on images from 
-  <ref target="https://digital.bodleian.ox.ac.uk/objects/8e01260b-1455-4048-bb69-332600cfd631/">Digital Bodleian</ref>
-  under a 
-  <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons BY-NC 4.0 License</ref>. 
-  Copyright holder: Photo © Bodleian Libraries, University of Oxford, 2018.
-</p>
-<p>
-  <ref target="http://creativecommons.org/licenses/by/3.0/">
-    <figure style="border-width:0;">
-      <figDesc>Creative Commons License</figDesc>
-      <graphic url="http://i.creativecommons.org/l/by/3.0/80x15.png"/>
-    </figure>
-  </ref>
-  <lb/>
-  TEI Boilerplate is licensed under a 
-  <ref target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</ref>.
-</p>
-
+					<ref n="license" target="http://creativecommons.org/licenses/by/3.0/"><figure style="border-width:0;"><figDesc>Creative Commons License</figDesc><graphic url="http://i.creativecommons.org/l/by/3.0/80x15.png"/></figure></ref><lb />TEI Boilerplate is licensed under a <ref n="license" target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</ref>.
+					</p>
+			
 				</availability>
 			</publicationStmt>
 			<msDesc>
