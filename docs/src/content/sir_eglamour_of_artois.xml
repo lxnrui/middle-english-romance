@@ -32,7 +32,8 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 				  <ref target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</ref>.
 				</p>
 				</availability>
-				
+			</publicationStmt>
+			
 			<msDesc>
 				 <msIdentifier>
 					  <settlement>Oxford</settlement>
@@ -71,7 +72,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 				   </p>
 				  </origin>
 				 </history>
-				</msDesc>
+			</msDesc>
 			<sourceDesc>
 				<biblStruct>
 					<analytic>
@@ -87,7 +88,6 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 					</monogr>
 				</biblStruct>
 			</sourceDesc>
-			</publicationStmt>
 		</fileDesc>
 		<encodingDesc>
 			<tagsDecl>	
