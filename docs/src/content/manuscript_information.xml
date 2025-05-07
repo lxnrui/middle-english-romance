@@ -275,7 +275,6 @@ xmlns:html="http://www.w3.org/1999/xhtml">
   <tei:body>
     <tei:p>
       <tei:w type="word1">Hello</tei:w>
-      <!-- Note with gloss type -->
       <tei:note type="gloss">A greeting</tei:note>
     </tei:p>
     <tei:p>
@@ -285,7 +284,6 @@ xmlns:html="http://www.w3.org/1999/xhtml">
   </tei:body>
   
   <ref target="sir_eglamour_of_artois.xml" type="button">Go back to the manuscript</ref>
-</text>
 
 	</text>
 </TEI>
