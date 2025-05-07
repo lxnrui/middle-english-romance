@@ -52,7 +52,7 @@ function init(){
 }
 
 function initGlossary() {
-  // Make glossary terms clickable
+  
   var terms = document.querySelectorAll('term[id]');
   
   for (var i = 0; i < terms.length; i++) {
@@ -61,13 +61,13 @@ function initGlossary() {
       var glossaryEntry = document.querySelector('term[ref="#' + targetId + '"]');
       
       if (glossaryEntry) {
-        // Scroll to the entry
+        
         glossaryEntry.scrollIntoView({
           behavior: 'smooth',
           block: 'center'
         });
 
-        // Highlight temporarily
+       
         var listItem = glossaryEntry.closest('item');
         listItem.style.backgroundColor = '#fffacd';
         setTimeout(function() {
@@ -75,6 +75,55 @@ function initGlossary() {
         }, 2000);
       }
     });
+  }
+
+ 
+  var glossaryItems = document.querySelectorAll('item[id^="gloss-"]');
+  
+  for (var j = 0; j < glossaryItems.length; j++) {
+    var item = glossaryItems[j];
+    var termId = item.id.replace('gloss-', '');
+    
+   
+    var backButton = document.createElement('button');
+    backButton.className = 'gloss-back';
+    backButton.innerHTML = '↩ Back to term';
+    backButton.style.cssText = `
+      margin-left: 10px;
+      padding: 2px 8px;
+      background: #f8f4e8;
+      border: 1px solid #d4c9a8;
+      border-radius: 3px;
+      font-size: 0.8em;
+      cursor: pointer;
+    `;
+    
+   
+    backButton.addEventListener('click', function(termId) {
+      return function() {
+        var targetTerm = document.querySelector('term[id="' + termId + '"]');
+        if (targetTerm) {
+          targetTerm.scrollIntoView({
+            behavior: 'smooth',
+            block: 'center'
+          });
+          
+         
+          targetTerm.style.outline = '2px solid #5f0000';
+          setTimeout(function() {
+            targetTerm.style.outline = '';
+          }, 2000);
+        }
+      };
+    }(termId));
+    
+    
+    var termRef = item.querySelector('term[ref]');
+    if (termRef) {
+      termRef.parentNode.insertBefore(backButton, termRef.nextSibling);
+    } else {
+      item.appendChild(backButton);
+    }
   }
 }
 
