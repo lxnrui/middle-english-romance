@@ -53,15 +53,15 @@ item:target {
 
 div[type="glossary"] term {
   font-weight: bold;
-  color: #5f0000;
+  color: ##8B0000;
   padding-right: 0.4em;
 }
 
 
 term {
-  color: #5f0000;
+  color: #8B0000;
   cursor: pointer;
-  border-bottom: 1px dotted #5f0000;
+  border-bottom: 1px dotted #8B0000;
   padding: 0 0.1em;
   transition: all 0.2s ease;
 }
@@ -73,6 +73,6 @@ term:focus {
 }
 
 term:focus {
-  outline: 2px solid #5f0000;
+  outline: 2px solid ##8B0000;
   outline-offset: 2px;
 }
