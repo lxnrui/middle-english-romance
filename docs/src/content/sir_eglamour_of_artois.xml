@@ -22,17 +22,13 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 			<sourceDesc>
 				<biblStruct>
 					<analytic>
-						<title> Romances (Sir Isenbras, Sir Degore, The Jest of Sir Gawayne, Sir Eglamour of Artois).
-						</title>
+						<title> Romances (Sir Isenbras, Sir Degore, The Jest of Sir Gawayne, Sir Eglamour of Artois).</title>
 					</analytic>
 					<monogr>
-						<title> Bodleian Library MS. Douce 261
-						</title>
+						<title> Bodleian Library MS. Douce 261</title>
 						<imprint>
-							<pubPlace> Oxford, England
-							</pubPlace>
-							<publisher> Bodleian Libraries, University of Oxford
-							</publisher>
+							<pubPlace> Oxford, England</pubPlace>
+							<publisher> Bodleian Libraries, University of Oxford</publisher>
 							<date when="01-08-2018" /> 
 						</imprint>
 					</monogr>
