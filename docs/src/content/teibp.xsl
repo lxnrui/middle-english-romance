@@ -488,16 +488,35 @@
 
        </xsl:template>
 	
-       <xsl:template match="choice">
-  <xsl:element name="span">
-    <xsl:if test="gloss">
-      <xsl:attribute name="title">
-        <xsl:value-of select="gloss"/>
-      </xsl:attribute>
+<xsl:template name="htmlHead">
+  <head>
+    <meta charset="UTF-8"/>
+    <link id="maincss" rel="stylesheet" type="text/css" href="{$teibpCSS}"/>
+    <link id="customcss" rel="stylesheet" type="text/css" href="{$customCSS}"/>
+    
+    <style type="text/css">
+      .hover-element:hover {
+        background-color: #f0f0f0; /* background change */
+        color: #333; /* text color change */
+        cursor: pointer; /* pointer cursor */
+      }
+    </style>
+
+    <xsl:call-template name="tagUsage2style"/>
+    <xsl:call-template name="rendition2style"/>
+    <title>sir_eglamour_of_artois</title>
+    <xsl:if test="$includeAnalytics = true()">
+      <xsl:call-template name="analytics"/>
     </xsl:if>
-    <xsl:value-of select="orig"/>
-  </xsl:element>
+  </head>
 </xsl:template>
+
+<xsl:template match="tei:figure">
+  <div class="hover-element">
+    <xsl:apply-templates/>
+  </div>
+</xsl:template>
+
 
        <xsl:template match="tei:pb[@facs]">
 	 <xsl:param name="pn">
