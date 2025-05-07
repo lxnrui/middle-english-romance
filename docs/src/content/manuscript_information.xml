@@ -273,7 +273,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 
 		<text>
  
-       <p>Test <term xml:id="t1">term<gloss target="#t1">This should appear on hover</gloss></term> with gloss.</p>
+       <p>I am full of information.</p>
   <ref target="sir_eglamour_of_artois.xml" type="button">Go back to the manuscript</ref>
 
 	</text>
