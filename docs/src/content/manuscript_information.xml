@@ -275,6 +275,12 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 			<div type="manuscript information" xml:id="douce261">
     <index indexName="text"/>
         <l>information</l>
+				<div class="button-group">
+  <ref target="manuscript_information.xml" type="button">About the manuscript</ref>
+  <ref target="demo.xml" type="button">About Sir Eglamour</ref>
+  <ref target="hardy_a_singer_asleep.xml" type="button">About Middle English romances</ref>
+</div>
+
 				<ref target="sir_eglamour_of_artois.xml" type="button">Go back to the manuscript</ref>
 			</div>
 		</body>
