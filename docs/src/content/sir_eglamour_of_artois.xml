@@ -312,8 +312,9 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 	<text>
 		<body>
 			<div type="romance" xml:id="sireglamour">
-				<indexName="text"/>
-	<head>Nested <gi>div</gi> elements and headings</head>
+    <index indexName="text"/>
+    <head>Nested <gi>div</gi> elements and headings</head>
+			</div>
 				<pb n="f.026v" type="folio" facs="../images/Bodleian-Library-MS-Douce-261_00014_fol-026v_reduced.jpg"/>
 				<lg>
 					<l n="1"> Ye are a knyght of lyttell lande</l>
