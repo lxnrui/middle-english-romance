@@ -408,6 +408,13 @@
 	 Unported License</a>. <a href="http://creativecommons.org/licenses/by/3.0/"><img
 	 alt="Creative Commons License" style="border-width:0;"
 	 src="http://i.creativecommons.org/l/by/3.0/80x15.png"/></a>
+<p>
+    The transcription is made by © 2025 Xinrui Li. It is based on images from 
+    <a href="https://digital.bodleian.ox.ac.uk/objects/8e01260b-1455-4048-bb69-332600cfd631/">Digital Bodleian</a> 
+    under a 
+    <a href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons BY-NC 4.0 License</a>. 
+    Copyright holder: Photo © Bodleian Libraries, University of Oxford, 2018.
+</p>
 	 </footer>
        </xsl:variable>
 
