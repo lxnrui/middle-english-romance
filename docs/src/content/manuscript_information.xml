@@ -273,9 +273,15 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 
 		<text>
  
-        <p>I am full of information</p>
-    
-   
+     <p>This uses <term xml:id="t1">TEI</term> and <term xml:id="t2">XSLT</term>.</p>
+      
+      <div type="glossary">
+        <head>Glossary</head>
+        <list>
+          <item><term ref="#t1">TEI</term>: Text Encoding Initiative</item>
+          <item><term ref="#t2">XSLT</term>: eXtensible Stylesheet Language Transformations</item>
+        </list>
+      </div>
   
  		
   <ref target="sir_eglamour_of_artois.xml" type="button">Go back to the manuscript</ref>
