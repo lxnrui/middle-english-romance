@@ -275,11 +275,11 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 			<div type="manuscript information" xml:id="douce261">
     <index indexName="text"/>
 
-				<p>
-      This is a <choice>
-        <orig>word</orig>
-        <gloss>additional information about the word</gloss>
-      </choice> example sentence.
+			<p>
+      The quick brown fox <note type="gloss">a speedy animal</note> jumps over the lazy dog.
+    </p>
+    <p>
+      The lazy dog <note type="gloss">a slow dog</note> sleeps.
     </p>
 				<ref target="sir_eglamour_of_artois.xml" type="button">Go back to the manuscript</ref>
 			</div>
