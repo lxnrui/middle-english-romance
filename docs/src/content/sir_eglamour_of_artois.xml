@@ -33,8 +33,20 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 				</p>
 				</availability>
 			</publicationStmt>
-			
-			<msDesc>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title> Romances (Sir Isenbras, Sir Degore, The Jest of Sir Gawayne, Sir Eglamour of Artois).</title>
+					</analytic>
+					<monogr>
+						<title> Bodleian Library MS. Douce 261</title>
+						<imprint>
+							<pubPlace> Oxford, England</pubPlace>
+							<publisher> Bodleian Libraries, University of Oxford</publisher>
+							<date when="2018-08-01" /> 
+						</imprint>
+					</monogr>
+					<msDesc>
 				 <msIdentifier>
 					  <settlement>Oxford</settlement>
 					  <repository>Bodleian Library</repository>
@@ -73,19 +85,6 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 				  </origin>
 				 </history>
 			</msDesc>
-			<sourceDesc>
-				<biblStruct>
-					<analytic>
-						<title> Romances (Sir Isenbras, Sir Degore, The Jest of Sir Gawayne, Sir Eglamour of Artois).</title>
-					</analytic>
-					<monogr>
-						<title> Bodleian Library MS. Douce 261</title>
-						<imprint>
-							<pubPlace> Oxford, England</pubPlace>
-							<publisher> Bodleian Libraries, University of Oxford</publisher>
-							<date when="2018-08-01" /> 
-						</imprint>
-					</monogr>
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
