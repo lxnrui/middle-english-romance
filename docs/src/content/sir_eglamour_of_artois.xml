@@ -19,6 +19,45 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 					</p>
 				</availability>
 			</publicationStmt>
+			<msDesc>
+				 <msIdentifier>
+					  <settlement>Oxford</settlement>
+					  <repository>Bodleian Library</repository>
+					  <idno>MS. Douce 261</idno>
+				 </msIdentifier>
+				 <msContents>
+					  <msItem>
+						   <author xml:lang="en">Anonymous</author>
+						   <title type="supplied">Douce</title>
+						   <textLang mainLang="en-m">Middle English</textLang>
+					  </msItem>
+				 </msContents>
+				 <physDesc>
+				  <objectDesc form="codex">
+				   <supportDesc material="paper">
+					 <support>Paper.</support>
+				   </supportDesc>
+				   <layoutDesc>
+					 	<layout columns="1">
+					     <p>In one column of 10 to 11 lines, followed by an illustration.</p>
+				   		</layout>
+				   </layoutDesc>
+				  </objectDesc>
+					<handDesc>
+					   <p>Hand written to look like a printed font.</p>
+					</handDesc>
+				  <decoDesc>
+					   <p> Coloured illustrations throughout.</p>
+				  </decoDesc>
+				 </physDesc>
+				 <history>
+				  <origin>
+				   <p>Written in <origPlace>England</origPlace> in <origDate notAfter="1600"
+				     notBefore="1500">1564.</origDate>
+				   </p>
+				  </origin>
+				 </history>
+				</msDesc>
 			<sourceDesc>
 				<biblStruct>
 					<analytic>
