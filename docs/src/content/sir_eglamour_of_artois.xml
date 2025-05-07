@@ -330,7 +330,9 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 			<p><ref target="manuscript_information.xml" type="button">About the manuscript</ref></p>
 			<p><ref target="demo.xml" type="button">About Sir Eglamour</ref></p>
 			<p><ref target="hardy_a_singer_asleep.xml" type="button">About Middle English romances</ref></p>
-
+ <p>This uses <term xml:id="t1">TEI</term> and <term xml:id="t2">XSLT</term>.</p>
+      
+     
 				<pb n="f.026v" type="folio" facs="../images/Bodleian-Library-MS-Douce-261_00014_fol-026v_reduced.jpg"/>
 				<lg>
 					<l> Ye are a knyght of lyttell lande</l>
@@ -358,6 +360,13 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 					<l> With wo am I bounde for the loue of the</l>
 					<l> In longynge and in care</l>
 					<l> Syr ſhe ſayd by gods pytte.</l>
+				 <div type="glossary">
+        <head>Glossary</head>
+        <list>
+          <item><term ref="#t1">TEI</term>: Text Encoding Initiative</item>
+          <item><term ref="#t2">XSLT</term>: eXtensible Stylesheet Language Transformations</item>
+        </list>
+      </div>
 			</div>
 		</body>
 	</text>
