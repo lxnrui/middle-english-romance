@@ -366,7 +366,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
   <item xml:id="gloss-t1">
     <term ref="#t1">TEI</term>: 
     <gloss>Text Encoding Initiative</gloss>
-    <button class="gloss-back" data-target="t1">↑ Back to term</button>
+    <ref type="backlink" target="#t1" rend="button">Back to term</ref>
   </item>
   <item xml:id="gloss-t2">
     <term ref="#t2">XSLT</term>: 
