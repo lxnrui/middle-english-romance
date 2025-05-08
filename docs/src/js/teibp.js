@@ -52,47 +52,31 @@ function init(){
 }
 
 function initGlossary() {
+  // Convert all backlinks to non-navigating elements
+  document.querySelectorAll('ref[type="backlink"]').forEach(ref => {
+    const span = document.createElement('span');
+    span.className = 'gloss-back';
+    span.textContent = ref.textContent;
+    span.dataset.target = ref.getAttribute('target').replace('#', '');
+    
+    // Replace the ref with our safe span
+    ref.replaceWith(span);
+  });
 
-  document.querySelectorAll('term[id], term[xml\\:id]').forEach(term => {
-    term.style.cursor = 'pointer';
-    term.addEventListener('click', function() {
-      const targetId = this.getAttribute('xml:id') || this.id;
-      const glossaryItem = document.querySelector(`item[xml\\:id="gloss-${targetId}"], #gloss-${targetId}`);
-      
-      if (glossaryItem) {
-        scrollToElement(glossaryItem);
+  // Handle clicks
+  document.querySelectorAll('.gloss-back').forEach(btn => {
+    btn.addEventListener('click', function() {
+      const target = document.querySelector(
+        `[xml\\:id="${this.dataset.target}"], #${this.dataset.target}`
+      );
+      if (target) {
+        target.scrollIntoView({
+          behavior: 'smooth',
+          block: 'center'
+        });
       }
     });
   });
-
-  
-  document.querySelectorAll('ref[type="backlink"]').forEach(btn => {
-    btn.addEventListener('click', function(e) {
-      e.preventDefault();
-      const targetId = this.getAttribute('target');
-      if (targetId) {
-        const targetTerm = document.querySelector(targetId);
-        if (targetTerm) {
-          scrollToElement(targetTerm);
-        }
-      }
-    });
-  });
-
-  
-  function scrollToElement(element) {
-    const elementRect = element.getBoundingClientRect();
-    const offsetPosition = elementRect.top + window.pageYOffset - (window.innerHeight / 3);
-    
-    window.scrollTo({
-      top: offsetPosition,
-      behavior: 'smooth'
-    });
-    
-    
-    element.style.boxShadow = '0 0 0 2px #5f0000';
-    setTimeout(() => element.style.boxShadow = '', 1000);
-  }
 }
 
 function blockUI(){
