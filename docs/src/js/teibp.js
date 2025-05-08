@@ -52,40 +52,47 @@ function init(){
 }
 
 function initGlossary() {
-
+  
   document.querySelectorAll('term[id], term[xml\\:id]').forEach(term => {
     term.style.cursor = 'pointer';
     term.addEventListener('click', function() {
-     
+      const targetId = this.getAttribute('xml:id') || this.id;
+      const targetElement = document.querySelector(`item[xml\\:id="gloss-${targetId}"], #gloss-${targetId}`);
+      if (targetElement) {
+        smoothScrollTo(targetElement);
+      }
     });
   });
 
-
-  document.querySelectorAll('item[id^="gloss-"], item[xml\\:id^="gloss-"]').forEach(item => {
-    // Only proceed if no back button exists
-    if (!item.querySelector('.gloss-back')) {
-      const termId = item.id ? item.id.replace('gloss-', '') : 
-                    item.getAttribute('xml:id').replace('gloss-', '');
-      
-      const backButton = document.createElement('button');
-      backButton.className = 'gloss-back';
-      backButton.textContent = '↑ Back to term';
-      
-      backButton.addEventListener('click', () => {
-        const targetTerm = document.querySelector(`term[xml\\:id="${termId}"], #${termId}`);
-        if (targetTerm) {
-          targetTerm.scrollIntoView({
-            behavior: 'smooth',
-            block: 'center'
-          });
-          targetTerm.style.outline = '2px solid #5f0000';
-          setTimeout(() => targetTerm.style.outline = '', 2000);
+ 
+  document.querySelectorAll('ref[type="backlink"]').forEach(btn => {
+    btn.addEventListener('click', function(e) {
+      e.preventDefault();
+      const targetId = this.getAttribute('target');
+      if (targetId) {
+        const targetElement = document.querySelector(targetId);
+        if (targetElement) {
+          smoothScrollTo(targetElement);
         }
-      });
-      
-      item.append(backButton);
-    }
+      }
+    });
   });
+}
+
+
+function smoothScrollTo(element) {
+  const elementRect = element.getBoundingClientRect();
+  const absoluteElementTop = elementRect.top + window.pageYOffset;
+  const middlePosition = absoluteElementTop - (window.innerHeight / 2.5);
+  
+  window.scrollTo({
+    top: middlePosition,
+    behavior: 'smooth'
+  });
+  
+  
+  element.style.boxShadow = '0 0 0 2px #5f0000';
+  setTimeout(() => element.style.boxShadow = '', 2000);
 }
 
 function blockUI(){
