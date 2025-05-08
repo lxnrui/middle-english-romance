@@ -53,78 +53,53 @@ function init(){
 
 function initGlossary() {
   
-  var terms = document.querySelectorAll('term[id]');
-  
-  for (var i = 0; i < terms.length; i++) {
-    terms[i].addEventListener('click', function() {
-      var targetId = this.getAttribute('xml:id') || this.id;
-      var glossaryEntry = document.querySelector('term[ref="#' + targetId + '"]');
+  document.querySelectorAll('term[id]').forEach(term => {
+    term.style.cursor = 'pointer';
+    term.addEventListener('click', function() {
+      const targetId = this.getAttribute('xml:id') || this.id;
+      const glossaryItem = document.getElementById(`gloss-${targetId}`);
       
-      if (glossaryEntry) {
-        
-        glossaryEntry.scrollIntoView({
+      if (glossaryItem) {
+       
+        glossaryItem.scrollIntoView({
           behavior: 'smooth',
           block: 'center'
         });
-
+        
        
-        var listItem = glossaryEntry.closest('item');
-        listItem.style.backgroundColor = '#fffacd';
-        setTimeout(function() {
-          listItem.style.backgroundColor = '';
-        }, 2000);
+        glossaryItem.style.animation = 'highlight 2s';
       }
     });
-  }
+  });
 
  
-  var glossaryItems = document.querySelectorAll('item[id^="gloss-"]');
-  
-  for (var j = 0; j < glossaryItems.length; j++) {
-    var item = glossaryItems[j];
-    var termId = item.id.replace('gloss-', '');
+  document.querySelectorAll('item[id^="gloss-"]').forEach(item => {
+    const termId = item.id.replace('gloss-', '');
     
    
-    var backButton = document.createElement('button');
+    const backButton = document.createElement('button');
     backButton.className = 'gloss-back';
-    backButton.innerHTML = '↩ Back to term';
-    backButton.style.cssText = `
-      margin-left: 10px;
-      padding: 2px 8px;
-      background: #f8f4e8;
-      border: 1px solid #d4c9a8;
-      border-radius: 3px;
-      font-size: 0.8em;
-      cursor: pointer;
-    `;
+    backButton.textContent = '↑ Back to term';
+    
+  
+    backButton.addEventListener('click', () => {
+      const targetTerm = document.querySelector(`term[xml:id="${termId}"]`);
+      if (targetTerm) {
+        targetTerm.scrollIntoView({
+          behavior: 'smooth',
+          block: 'center'
+        });
+        
+       
+        targetTerm.style.outline = '2px solid #5f0000';
+        setTimeout(() => targetTerm.style.outline = '', 2000);
+      }
+    });
     
    
-    backButton.addEventListener('click', function(termId) {
-      return function() {
-        var targetTerm = document.querySelector('term[id="' + termId + '"]');
-        if (targetTerm) {
-          targetTerm.scrollIntoView({
-            behavior: 'smooth',
-            block: 'center'
-          });
-          
-         
-          targetTerm.style.outline = '2px solid #5f0000';
-          setTimeout(function() {
-            targetTerm.style.outline = '';
-          }, 2000);
-        }
-      };
-    }(termId));
-    
-    
-    var termRef = item.querySelector('term[ref]');
-    if (termRef) {
-      termRef.parentNode.insertBefore(backButton, termRef.nextSibling);
-    } else {
-      item.appendChild(backButton);
-    }
-  }
+    const termRef = item.querySelector('term[ref]');
+    termRef ? termRef.after(backButton) : item.append(backButton);
+  });
 }
 
 function blockUI(){
