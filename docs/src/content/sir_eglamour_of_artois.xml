@@ -366,17 +366,17 @@ xmlns:html="http://www.w3.org/1999/xhtml">
  <item xml:id="gloss-t1">
   <term ref="#t1" id="t1">TEI</term>: 
   <gloss>Text Encoding Initiative</gloss>
-  <ref type="backlink" target="#t1" rend="button">Back to term</ref>
+  <ref type="backlink" target="#t1" rend="button">Back up</ref>
 </item>
   <item xml:id="gloss-t2">
-    <term ref="#t2">XSLT</term>: 
+    <term ref="#t2" id="t2">XSLT</term>: 
     <gloss>eXtensible Stylesheet Language Transformations</gloss>
-    <ref type="backlink" target="#t2" rend="button">Back to term</ref>
+    <ref type="backlink" target="#t2" rend="button">Back up</ref>
   </item>
   <item xml:id="gloss-t3">
-    <term ref="#t3">ſhewe</term>: 
+    <term ref="#t3" id="t3">ſhewe</term>: 
     <gloss>Let's check it together</gloss>
-    <button class="gloss-back" data-target="t3">↑ Back to term</button>
+    <ref type="backlink" target="#t3" rend="button">Back up</ref>
   </item>
 </list>
       </div>
