@@ -67,7 +67,7 @@ item:target,
 }
 
 
-
+/* Style for the 'backlink' type, rendered as a button */
 ref[type="backlink"][rend="button"] {
   display: inline-block;
   margin-left: 0.8em;
@@ -81,11 +81,26 @@ ref[type="backlink"][rend="button"] {
   cursor: pointer;
   transition: all 0.2s ease;
   text-decoration: none; /* Prevent default link styling */
+  outline: none; /* Remove default outline */
 }
 
+/* Hover state for button */
 ref[type="backlink"][rend="button"]:hover {
   background: #5f0000;
   color: white;
+}
+
+/* Focus state for accessibility (keyboard users) */
+ref[type="backlink"][rend="button"]:focus {
+  outline: 2px solid #5f0000; /* Add a visible outline on focus */
+  outline-offset: 4px;
+  box-shadow: 0 0 5px rgba(95, 0, 0, 0.6); /* Optional: add a shadow for emphasis */
+}
+
+/* Optional: Add active state for when clicked */
+ref[type="backlink"][rend="button"]:active {
+  background: #d4c9a8;
+  color: #5f0000;
 }
 
 
