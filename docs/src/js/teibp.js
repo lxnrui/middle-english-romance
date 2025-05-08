@@ -48,7 +48,7 @@ function init(){
 	var teiTitle = document.querySelector("tei-title");
 	if(htmlTitle != null && teiTitle != null)
 		htmlTitle.textContent = teiTitle.textContent;
-	 initGlossary();
+	 setTimeout(initGlossary, 100);
 }
 
 function initGlossary() {
