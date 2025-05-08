@@ -363,11 +363,11 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 				 <div type="glossary">
         <head>Glossary</head>
         <list>
-  <item xml:id="gloss-t1">
-    <term ref="#t1">TEI</term>: 
-    <gloss>Text Encoding Initiative</gloss>
-    <ref type="backlink" target="#t1" rend="button">Back to term</ref>
-  </item>
+ <item xml:id="gloss-t1">
+  <term ref="#t1" id="t1">TEI</term>: 
+  <gloss>Text Encoding Initiative</gloss>
+  <ref type="backlink" target="#t1" rend="button">Back to term</ref>
+</item>
   <item xml:id="gloss-t2">
     <term ref="#t2">XSLT</term>: 
     <gloss>eXtensible Stylesheet Language Transformations</gloss>
