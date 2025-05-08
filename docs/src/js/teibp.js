@@ -52,47 +52,47 @@ function init(){
 }
 
 function initGlossary() {
-  
+
   document.querySelectorAll('term[id], term[xml\\:id]').forEach(term => {
     term.style.cursor = 'pointer';
     term.addEventListener('click', function() {
       const targetId = this.getAttribute('xml:id') || this.id;
-      const targetElement = document.querySelector(`item[xml\\:id="gloss-${targetId}"], #gloss-${targetId}`);
-      if (targetElement) {
-        smoothScrollTo(targetElement);
+      const glossaryItem = document.querySelector(`item[xml\\:id="gloss-${targetId}"], #gloss-${targetId}`);
+      
+      if (glossaryItem) {
+        scrollToElement(glossaryItem);
       }
     });
   });
 
- 
+  
   document.querySelectorAll('ref[type="backlink"]').forEach(btn => {
     btn.addEventListener('click', function(e) {
       e.preventDefault();
       const targetId = this.getAttribute('target');
       if (targetId) {
-        const targetElement = document.querySelector(targetId);
-        if (targetElement) {
-          smoothScrollTo(targetElement);
+        const targetTerm = document.querySelector(targetId);
+        if (targetTerm) {
+          scrollToElement(targetTerm);
         }
       }
     });
   });
-}
 
-
-function smoothScrollTo(element) {
-  const elementRect = element.getBoundingClientRect();
-  const absoluteElementTop = elementRect.top + window.pageYOffset;
-  const middlePosition = absoluteElementTop - (window.innerHeight / 2.5);
   
-  window.scrollTo({
-    top: middlePosition,
-    behavior: 'smooth'
-  });
-  
-  
-  element.style.boxShadow = '0 0 0 2px #5f0000';
-  setTimeout(() => element.style.boxShadow = '', 2000);
+  function scrollToElement(element) {
+    const elementRect = element.getBoundingClientRect();
+    const offsetPosition = elementRect.top + window.pageYOffset - (window.innerHeight / 3);
+    
+    window.scrollTo({
+      top: offsetPosition,
+      behavior: 'smooth'
+    });
+    
+    
+    element.style.boxShadow = '0 0 0 2px #5f0000';
+    setTimeout(() => element.style.boxShadow = '', 1000);
+  }
 }
 
 function blockUI(){
