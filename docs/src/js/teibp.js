@@ -52,19 +52,17 @@ function init(){
 }
 
 function initGlossary() {
-  // =====================
-  // 1. SCROLL DOWN TO GLOSSARY
-  // =====================
+ 
   document.querySelectorAll('term[id], term[xml\\:id]').forEach(term => {
     // Remove any existing handlers first
     term.replaceWith(term.cloneNode(true));
     
-    // Add new handler
+   
     term.style.cursor = 'pointer';
     term.addEventListener('click', function() {
       const targetId = this.getAttribute('xml:id') || this.id;
       
-      // Find the matching glossary item (check both XML and HTML formats)
+     
       const glossaryItem = document.querySelector(`
         item[xml\\:id="gloss-${targetId}"],
         #gloss-${targetId},
@@ -78,7 +76,7 @@ function initGlossary() {
           block: 'center'
         });
         
-        // Highlight animation
+       
         glossaryItem.style.animation = 'none';
         void glossaryItem.offsetWidth; // Trigger reflow
         glossaryItem.style.animation = 'highlight 2s';
@@ -86,9 +84,7 @@ function initGlossary() {
     });
   });
 
-  // =====================
-  // 2. SCROLL UP TO TERMS
-  // =====================
+ 
   document.querySelectorAll('ref[type="backlink"], .gloss-back').forEach(btn => {
     // Clean clone to remove old handlers
     btn.replaceWith(btn.cloneNode(true));
@@ -97,11 +93,11 @@ function initGlossary() {
       e.preventDefault();
       e.stopPropagation();
       
-      // Get target from either attribute
+     
       const targetId = this.getAttribute('target') || this.dataset.target;
       if (!targetId) return;
       
-      // Find target term (check both XML and HTML formats)
+      
       const targetTerm = document.querySelector(`
         term[xml\\:id="${targetId.replace('#', '')}"],
         #${targetId.replace('#', '')},
@@ -115,7 +111,7 @@ function initGlossary() {
           block: 'center'
         });
         
-        // Highlight
+       
 
 function blockUI(){
 	var body = document.querySelector("body");
