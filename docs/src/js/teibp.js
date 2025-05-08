@@ -78,21 +78,29 @@ function initGlossary() {
       const glossaryItem = document.querySelector(`#gloss-${targetId}`);
       if (glossaryItem) {
         glossaryItem.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      } else {
+        console.warn(`Glossary item for term with ID ${targetId} not found.`);
       }
     });
   });
 
-  // SCROLL UP: Buttons → Terms (no event prevention)
-  document.querySelectorAll('button.gloss-back').forEach(btn => {
-    btn.addEventListener('click', function() {
-      const targetTerm = document.querySelector(`#${this.dataset.target}`);
+  // SCROLL UP: <ref> elements → Terms (backlinks)
+  document.querySelectorAll('ref[type="backlink"]').forEach(backlink => {
+    backlink.addEventListener('click', function(e) {
+      e.preventDefault(); // Prevent the default link behavior (page navigation)
+      
+      const targetTermId = this.getAttribute('target'); // Get the target term ID
+      const targetTerm = document.querySelector(`#${targetTermId}`);
+      
       if (targetTerm) {
         targetTerm.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      } else {
+        console.warn(`Target term with ID ${targetTermId} not found.`);
       }
     });
   });
 }
-       
+
 
 function blockUI(){
 	var body = document.querySelector("body");
