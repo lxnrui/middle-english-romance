@@ -52,65 +52,28 @@ function init(){
 }
 
 function initGlossary() {
- 
+  // SCROLL DOWN: Terms → Glossary
   document.querySelectorAll('term[id], term[xml\\:id]').forEach(term => {
-    // Remove any existing handlers first
-    term.replaceWith(term.cloneNode(true));
-    
-   
     term.style.cursor = 'pointer';
     term.addEventListener('click', function() {
       const targetId = this.getAttribute('xml:id') || this.id;
-      
-     
-      const glossaryItem = document.querySelector(`
-        item[xml\\:id="gloss-${targetId}"],
-        #gloss-${targetId},
-        [data-id="gloss-${targetId}"]
-      `);
-      
+      const glossaryItem = document.querySelector(`#gloss-${targetId}`);
       if (glossaryItem) {
-        // Smooth scroll with visual feedback
-        glossaryItem.scrollIntoView({
-          behavior: 'smooth',
-          block: 'center'
-        });
-        
-       
-        glossaryItem.style.animation = 'none';
-        void glossaryItem.offsetWidth; // Trigger reflow
-        glossaryItem.style.animation = 'highlight 2s';
+        glossaryItem.scrollIntoView({ behavior: 'smooth', block: 'center' });
       }
     });
   });
 
- 
-  document.querySelectorAll('ref[type="backlink"], .gloss-back').forEach(btn => {
-    // Clean clone to remove old handlers
-    btn.replaceWith(btn.cloneNode(true));
-    
-    btn.addEventListener('click', function(e) {
-      e.preventDefault();
-      e.stopPropagation();
-      
-     
-      const targetId = this.getAttribute('target') || this.dataset.target;
-      if (!targetId) return;
-      
-      
-      const targetTerm = document.querySelector(`
-        term[xml\\:id="${targetId.replace('#', '')}"],
-        #${targetId.replace('#', '')},
-        [data-id="${targetId.replace('#', '')}"]
-      `);
-      
+  // SCROLL UP: Buttons → Terms (no event prevention)
+  document.querySelectorAll('button.gloss-back').forEach(btn => {
+    btn.addEventListener('click', function() {
+      const targetTerm = document.querySelector(`#${this.dataset.target}`);
       if (targetTerm) {
-        // Smooth scroll with visual feedback
-        targetTerm.scrollIntoView({
-          behavior: 'smooth',
-          block: 'center'
-        });
-        
+        targetTerm.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    });
+  });
+}
        
 
 function blockUI(){
