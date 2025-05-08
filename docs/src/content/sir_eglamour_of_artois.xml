@@ -365,15 +365,12 @@ xmlns:html="http://www.w3.org/1999/xhtml">
         <list>
  <item xml:id="gloss-t1">
   <term ref="#t1">TEI</term>: 
-  <gloss>Text Encoding Initiative</gloss>
-</item>
+  <gloss>Text Encoding Initiative</gloss></item>
   <item xml:id="gloss-t2">
     <term ref="#t2">XSLT</term>: 
-    <gloss>eXtensible Stylesheet Language Transformations</gloss>
-  </item>
+    <gloss>eXtensible Stylesheet Language Transformations</gloss></item>
   <item xml:id="gloss-t3">
-    <term ref="#t3">ſhewe</term>: 
-    <gloss>Let's check it together</gloss>
+    <term ref="#t3">ſhewe</term>: <gloss>Let's check it together</gloss>
   </item>
 </list>
       </div>
