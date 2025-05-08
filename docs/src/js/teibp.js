@@ -52,32 +52,70 @@ function init(){
 }
 
 function initGlossary() {
-  // Convert all backlinks to non-navigating elements
-  document.querySelectorAll('ref[type="backlink"]').forEach(ref => {
-    const span = document.createElement('span');
-    span.className = 'gloss-back';
-    span.textContent = ref.textContent;
-    span.dataset.target = ref.getAttribute('target').replace('#', '');
+  // =====================
+  // 1. SCROLL DOWN TO GLOSSARY
+  // =====================
+  document.querySelectorAll('term[id], term[xml\\:id]').forEach(term => {
+    // Remove any existing handlers first
+    term.replaceWith(term.cloneNode(true));
     
-    // Replace the ref with our safe span
-    ref.replaceWith(span);
-  });
-
-  // Handle clicks
-  document.querySelectorAll('.gloss-back').forEach(btn => {
-    btn.addEventListener('click', function() {
-      const target = document.querySelector(
-        `[xml\\:id="${this.dataset.target}"], #${this.dataset.target}`
-      );
-      if (target) {
-        target.scrollIntoView({
+    // Add new handler
+    term.style.cursor = 'pointer';
+    term.addEventListener('click', function() {
+      const targetId = this.getAttribute('xml:id') || this.id;
+      
+      // Find the matching glossary item (check both XML and HTML formats)
+      const glossaryItem = document.querySelector(`
+        item[xml\\:id="gloss-${targetId}"],
+        #gloss-${targetId},
+        [data-id="gloss-${targetId}"]
+      `);
+      
+      if (glossaryItem) {
+        // Smooth scroll with visual feedback
+        glossaryItem.scrollIntoView({
           behavior: 'smooth',
           block: 'center'
         });
+        
+        // Highlight animation
+        glossaryItem.style.animation = 'none';
+        void glossaryItem.offsetWidth; // Trigger reflow
+        glossaryItem.style.animation = 'highlight 2s';
       }
     });
   });
-}
+
+  // =====================
+  // 2. SCROLL UP TO TERMS
+  // =====================
+  document.querySelectorAll('ref[type="backlink"], .gloss-back').forEach(btn => {
+    // Clean clone to remove old handlers
+    btn.replaceWith(btn.cloneNode(true));
+    
+    btn.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      
+      // Get target from either attribute
+      const targetId = this.getAttribute('target') || this.dataset.target;
+      if (!targetId) return;
+      
+      // Find target term (check both XML and HTML formats)
+      const targetTerm = document.querySelector(`
+        term[xml\\:id="${targetId.replace('#', '')}"],
+        #${targetId.replace('#', '')},
+        [data-id="${targetId.replace('#', '')}"]
+      `);
+      
+      if (targetTerm) {
+        // Smooth scroll with visual feedback
+        targetTerm.scrollIntoView({
+          behavior: 'smooth',
+          block: 'center'
+        });
+        
+        // Highlight
 
 function blockUI(){
 	var body = document.querySelector("body");
