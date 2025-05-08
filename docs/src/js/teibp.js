@@ -87,8 +87,10 @@ function initGlossary() {
   // SCROLL UP: <ref> elements → Terms (backlinks)
   document.querySelectorAll('ref[type="backlink"]').forEach(backlink => {
     backlink.addEventListener('click', function(e) {
-      e.preventDefault(); // Prevent the default link behavior (page navigation)
-      
+      // Explicitly prevent the default action of a hyperlink
+      e.stopImmediatePropagation(); // Stop the event from bubbling up
+      e.preventDefault(); // Prevent any default link behavior (like opening a new page)
+
       const targetTermId = this.getAttribute('target'); // Get the target term ID
       const targetTerm = document.querySelector(`#${targetTermId}`);
       
