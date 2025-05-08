@@ -52,38 +52,51 @@ function init(){
 }
 
 function initGlossary() {
-  
-  document.querySelectorAll('term[id]').forEach(term => {
+
+  document.querySelectorAll('term[id], term[xml\\:id]').forEach(term => {
     term.style.cursor = 'pointer';
     term.addEventListener('click', function() {
       const targetId = this.getAttribute('xml:id') || this.id;
-      const glossaryItem = document.getElementById(`gloss-${targetId}`);
+      const glossaryItem = document.querySelector(`item[xml\\:id="gloss-${targetId}"], #gloss-${targetId}`);
       
       if (glossaryItem) {
-       
         glossaryItem.scrollIntoView({
           behavior: 'smooth',
           block: 'center'
         });
         
        
-        glossaryItem.style.animation = 'highlight 2s';
+        glossaryItem.classList.add('highlighted-term');
+        setTimeout(() => {
+          glossaryItem.classList.remove('highlighted-term');
+        }, 2000);
       }
     });
   });
 
  
-  document.querySelectorAll('item[id^="gloss-"]').forEach(item => {
-    const termId = item.id.replace('gloss-', '');
-    
-   
-    const backButton = document.createElement('button');
-    backButton.className = 'gloss-back';
-    backButton.textContent = '↑ Back to term';
+  document.querySelectorAll('item[id^="gloss-"], item[xml\\:id^="gloss-"]').forEach(item => {
+    const termId = item.id ? item.id.replace('gloss-', '') : 
+                  item.getAttribute('xml:id').replace('gloss-', '');
     
   
-    backButton.addEventListener('click', () => {
-      const targetTerm = document.querySelector(`term[xml:id="${termId}"]`);
+    let backButton = item.querySelector('ref[type="backlink"]');
+    
+    if (!backButton) {
+      backButton = document.createElement('ref');
+      backButton.setAttribute('type', 'backlink');
+      backButton.setAttribute('rend', 'button');
+      backButton.textContent = '↑ Back to term';
+      
+      const termRef = item.querySelector('term[ref], term[xml\\:ref]');
+      termRef ? termRef.after(backButton) : item.append(backButton);
+    }
+
+   
+    backButton.addEventListener('click', (e) => {
+      e.preventDefault();
+      const targetTerm = document.querySelector(`term[xml\\:id="${termId}"], #${termId}`);
+      
       if (targetTerm) {
         targetTerm.scrollIntoView({
           behavior: 'smooth',
@@ -95,10 +108,6 @@ function initGlossary() {
         setTimeout(() => targetTerm.style.outline = '', 2000);
       }
     });
-    
-   
-    const termRef = item.querySelector('term[ref]');
-    termRef ? termRef.after(backButton) : item.append(backButton);
   });
 }
 
