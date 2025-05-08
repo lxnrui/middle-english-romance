@@ -364,7 +364,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
         <head>Glossary</head>
         <list>
 	<item xml:id="gloss-t1"> <term ref="#t1">TEI</term>:   <gloss target="#t1">Text Encoding Initiative</gloss> </item>
-          <item xml:id="gloss-t2"><term ref="#t2">XSLT</term>: <gloss target="#t2">eXtensible Stylesheet Language Transformations </item>
+          <item xml:id="gloss-t2"><term ref="#t2">XSLT</term>: <gloss target="#t2">eXtensible Stylesheet Language Transformations</gloss> </item>
 	  <item xml:id="gloss-t3"><term ref="#t3">ſhewe</term>: <gloss target="#t3">Let's check it together</gloss></item>
         </list>
       </div>
