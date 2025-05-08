@@ -68,7 +68,7 @@ item:target,
 
 
 
-button.gloss-back {
+ref[type="backlink"][rend="button"] {
   display: inline-block;
   margin-left: 0.8em;
   padding: 0.2em 0.6em;
@@ -80,12 +80,14 @@ button.gloss-back {
   color: #5f0000;
   cursor: pointer;
   transition: all 0.2s ease;
+  text-decoration: none; /* Prevent default link styling */
 }
 
-button.gloss-back:hover {
+ref[type="backlink"][rend="button"]:hover {
   background: #5f0000;
   color: white;
 }
+
 
 @media print {
   ref[type="backlink"][rend="button"] {
