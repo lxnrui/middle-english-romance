@@ -64,6 +64,7 @@ function initGlossary() {
       }
     });
   });
+}
 
 function blockUI(){
 	var body = document.querySelector("body");
