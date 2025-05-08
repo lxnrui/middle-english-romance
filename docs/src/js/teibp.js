@@ -49,6 +49,24 @@ function init(){
 	if(htmlTitle != null && teiTitle != null)
 		htmlTitle.textContent = teiTitle.textContent;
 	 setTimeout(initGlossary, 100);
+	
+document.querySelectorAll('ref[type="backlink"]').forEach(function(backlink) {
+  backlink.addEventListener('click', function(e) {
+    e.preventDefault(); 
+
+    var targetId = backlink.getAttribute('target'); 
+    var targetElement = document.querySelector(targetId); 
+
+    if (targetElement) {
+      
+      targetElement.scrollIntoView({
+        behavior: 'smooth',  
+        block: 'start'       
+      });
+    }
+  });
+});
+
 }
 
 function initGlossary() {
