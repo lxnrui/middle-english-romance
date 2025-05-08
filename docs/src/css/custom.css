@@ -1,23 +1,20 @@
 div[type="glossary"] {
-  background: #f8f4e8;
-  border: 1px solid #d4c9a8;
+  background: #f8f4e8;       
+  border: 1px solid #d4c9a8; 
   border-radius: 4px;
   padding: 1.5em;
   margin: 2em 0;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
   font-family: "Gentium Book Basic", serif;
-  color: #3a3329;
-  font-size: 0.95em;
-  line-height: 1.6;
+  color: #3a3329;            
 }
-
 
 div[type="glossary"] > head {
   display: block;
   font-family: Arvo, sans-serif;
   font-weight: bold;
   font-size: 1.3em;
-  color: #5f0000;
+  color: #5f0000;           
   margin-bottom: 0.8em;
   padding-bottom: 0.4em;
   border-bottom: 1px solid #d4c9a8;
@@ -30,67 +27,70 @@ div[type="glossary"] list {
   list-style-type: none;
 }
 
-
 div[type="glossary"] item {
   padding: 0.6em 0.4em;
   border-bottom: 1px dotted #d4c9a8;
+  line-height: 1.6;
 }
 
 div[type="glossary"] item:last-child {
   border-bottom: none;
 }
 
-item:target {
-  background: #fffacd;
-  animation: highlight-fade 2.5s;
-}
-
-@keyframes highlight-fade {
-  0% { background: #fffacd; }
-  100% { background: #f8f4e8; }
-}
-
-
-div[type="glossary"] term {
-  font-weight: bold;
-  color: ##8B0000;
-  padding-right: 0.4em;
-}
-
 
 term {
-  color: #8B0000;
+  color: #8B0000;           
   cursor: pointer;
   border-bottom: 1px dotted #8B0000;
   padding: 0 0.1em;
   transition: all 0.2s ease;
 }
 
-term:hover,
-term:focus {
-  color: #8B0000;
+term:hover {
   border-bottom-style: solid;
 }
 
 term:focus {
-  outline: 2px solid ##8B0000;
+  outline: 2px solid #8B0000;
   outline-offset: 2px;
 }
 
 
-ptr[type="backlink"][rend="button"]::after {
-  content: "↩ Back";
-  display: inline-block;
-  margin-left: 1em;
-  padding: 0.2em 0.5em;
-  background: #f8f4e8;
-  border: 1px solid #d4c9a8;
-  border-radius: 3px;
-  font-size: 0.8em;
-  cursor: pointer;
+@keyframes highlight {
+  0% { background-color: #fffacd; }
+  100% { background-color: transparent; }
 }
 
-ptr[type="backlink"][rend="button"]:hover::after {
+item:target,
+.highlighted-term {
+  animation: highlight 2.5s;
+}
+
+
+.gloss-back {
+  display: inline-block;
+  margin-left: 0.8em;
+  padding: 0.2em 0.6em;
+  background: #f8f4e8;
+  border: 1px solid #d4c9a8;
+  border-radius: 12px;
+  font-family: Arvo, sans-serif;
+  font-size: 0.75em;
+  color: #5f0000;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.gloss-back:hover {
   background: #5f0000;
   color: white;
+}
+
+
+@media print {
+  .gloss-back {
+    content: " (see text)";
+    background: transparent !important;
+    border: none !important;
+  }
 }
