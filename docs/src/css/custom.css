@@ -66,14 +66,3 @@ item:target,
   animation: highlight 2.5s;
 }
 
-
-
-
-@media print {
-  ref[type="backlink"][rend="button"] {
-    content: " (see text)";
-    background: transparent !important;
-    border: none !important;
-  }
-}
-
