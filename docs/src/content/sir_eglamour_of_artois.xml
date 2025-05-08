@@ -363,7 +363,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 				 <div type="glossary">
         <head>Glossary</head>
         <list>
-          <item><term ref="#t1">TEI</term>: Text Encoding Initiative </item>
+          <item><term ref="#t1">TEI</term>: Text Encoding Initiative <ref type="backlink" target="#t1" rend="button">Back to term</ref></item>
           <item><term ref="#t2">XSLT</term>: eXtensible Stylesheet Language Transformations</item>
 	  <item><term ref="#t3">ſhewe</term>: Let's check it together</item>
         </list>
