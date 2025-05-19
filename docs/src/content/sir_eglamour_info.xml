@@ -275,8 +275,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 		<text>
 			<body>
 			<div>
-			 <p><ref target="manuscript_information.xml" type="button">About the manuscript</ref></p>
-			<p><ref target="sir_eglamour_info.xml" type="button">About Sir Eglamour</ref></p>
+			 <p><ref target="manuscript_information.xml" type="button">About MS. Douce 261</ref></p>
 			<p><ref target="middle_english_romance.xml" type="button">About Middle English romances</ref></p>
 
     	
@@ -294,7 +293,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 	  </listBibl>
         </div>
    </div>	
- <p><ref target="sir_eglamour_of_artois.xml" type="button">Go back to the manuscript</ref></p>
+<div><p><ref target="sir_eglamour_of_artois.xml" type="button">Go back to the transcription</ref></p></div>
 			</div>
 			</body>
 	</text>
