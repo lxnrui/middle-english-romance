@@ -307,6 +307,14 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 				<rendition xml:id="xxx-large" n="tiebp:xxx-large" scheme="css">
 					font-size:120%;
 				</rendition>
+
+				<rendition xml:id="xxxx-large" n="tiebp:xxxx-large" scheme="css">
+					font-size:150%;
+				</rendition>
+				
+				<rendition xml:id="xxxxx-large" n="tiebp:xxxxx-large" scheme="css">
+					font-size:200%;
+				</rendition>
 				
 				<rendition xml:id="bracket" n="teibp:bracket" scheme="css"/>
 				
@@ -470,10 +478,10 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 					<l n="1222"> with youe ones to playe</l>
 				<pb n="f.048v" type="folio" facs="../images/Bodleian-Library-MS-Douce-261_00025_fol-048v_reduced.jpg"/>
 				<lb/>
-				<p rendition="#xxx-large #center #b">IHS</p>
-				<p rendition="#x-large #center #b">1564</p>
+				<p rendition="#xxxxx-large #center #b">IHS</p>
+				<p rendition="#xxx-large #center #b">1564</p>
 				<p rendition="#center">Here endeth Syr Eglamoure of Artois</p>
-				<p rendition="#xx-large #center #b">XPS</p>
+				<p rendition="#xxxx-large #center #b">XPS</p>
 						<div type="glossary">
 					        <head>Glossary</head>
 					        <list>
