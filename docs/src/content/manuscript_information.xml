@@ -275,6 +275,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 
 		<text>
  <body>
+	 <p><ref target="Homepage.xml" type="button">Homepage</ref></p>
 	  <p><ref target="manuscript_information.xml" type="button">About the manuscript</ref></p>
 			<p><ref target="sir_eglamour_info.xml" type="button">About Sir Eglamour</ref></p>
 			<p><ref target="middle_english_romance.xml" type="button">About Middle English romances</ref></p>
@@ -283,14 +284,8 @@ xmlns:html="http://www.w3.org/1999/xhtml">
      	<p>The Bodleian Library MS. Douce 261 manuscript is an interesting manuscript that has largely been overlooked. The manuscript is dated to <date notAfter="1600" notBefore="1500">1564</date> and contains four Middle English romances, namely <title level="m">Sir Isembras</title>, <title level="m">Sir Degore</title>, <title level="m">The Jest of Sir Gawayne</title>, and <title level="m">Sir Eglamour of Artois</title>. What makes this manuscript so interesting is it is not a conventional manuscript; it is actually a transcription of a different book.</p>
 	<p>According to <persName>Joana van de Löcht</persName>, much has changed during the <date notAfter="1600" notBefore="1500">fifteenth century</date> regarding the status of manuscripts and the status of books. The printing press made books much more accessible, but it did not results to an abandonment of manuscripts. Instead, manuscripts were still very valued and circulated among many as "treasures"<ref target="#Locht">(143)</ref>. The book and the manuscript did influence each other and manuscripts were seen to emulate characteristics of printed books, which can be recognised by the uniform "letterform," "designed title page[s]," use of "paratexts," and "pictorial plates" <ref target="#Locht">(Löcht 146-147)</ref>.</p>
 	<p>The MS. Douce 261 clearly reflects the matter of the handwriting in its extreme neatness. All the letters are written uniformly, demonstrating a care to emulate prints.</p>
+	<p>It is unclear which manuscript might have parented MS. Douce 261, as the spelling and grammar conventions used by this one do not match any of the currently known manuscripts containing the same stories. Notably, the current line numbering system merely serves to aid in the finding or the corresponding lines and does not reflect the actual numbering. The line numberings encoded in my transcription are pure approximates based on the numbering of the British Library, MS. Cotton Caligula A.ii, as I do not have access to the whole manuscript. The large difference between the several versions of this story exists on the line level too. Line 65 of the MS. Cotton Caligula, for example, does not exist in this version of the story.</p> 
 	 </div>
-      <div type="glossary">
-        <head>Glossary</head>
-        <list>
-          <item><term ref="#t1">TEI</term>: Text Encoding Initiative</item>
-          <item><term ref="#t2">XSLT</term>: eXtensible Stylesheet Language Transformations</item>
-        </list>
-      </div>
    <div>
         <head rendition="#centre">Works Cited</head>
         <div xml:id="works_cited">
@@ -301,7 +296,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
    </div>
 	
 	 <div>	
-  <p><ref target="sir_eglamour_of_artois.xml" type="button">Go back to the manuscript</ref></p>
+  <p><ref target="sir_eglamour_of_artois.xml" type="button">Go back to the transcription</ref></p>
 </div>
  
 		 </body>
