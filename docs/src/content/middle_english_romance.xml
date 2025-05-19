@@ -274,8 +274,9 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 
 		<text>
  <body>
-	  <p><ref target="manuscript_information.xml" type="button">About the manuscript</ref></p>
-			<p><ref target="sir_eglamour_info.xml" type="button">About Sir Eglamour</ref></p>
+	 <p><ref target="homepage.xml" type="button">Homepage</ref></p>
+	  <p><ref target="manuscript_information.xml" type="button">About MS. Douce 261</ref></p>
+	<p><ref target="sir_eglamour_info.xml" type="button">About the Poem</ref></p>
 			
 
 	 <div>
@@ -283,13 +284,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 	<p>According to <persName>Joana van de Löcht</persName>, much has changed during the <date notAfter="1600" notBefore="1500">fifteenth century</date> regarding the status of manuscripts and the status of books. The printing press made books much more accessible, but it did not results to an abandonment of manuscripts. Instead, manuscripts were still very valued and circulated among many as "treasures"<ref target="#Locht">(143)</ref>. The book and the manuscript did influence each other and manuscripts were seen to emulate characteristics of printed books, which can be recognised by the uniform "letterform," "designed title page[s]," use of "paratexts," and "pictorial plates" <ref target="#Locht">(Löcht 146-147)</ref>.</p>
 	<p>The MS. Douce 261 clearly reflects the matter of the handwriting in its extreme neatness. All the letters are written uniformly, demonstrating a care to emulate prints.</p>
 	 </div>
-      <div type="glossary">
-        <head>Glossary</head>
-        <list>
-          <item><term ref="#t1">TEI</term>: Text Encoding Initiative</item>
-          <item><term ref="#t2">XSLT</term>: eXtensible Stylesheet Language Transformations</item>
-        </list>
-      </div>
+   
    <div>
         <head rendition="#centre">Works Cited</head>
         <div xml:id="works_cited">
