@@ -274,7 +274,8 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 	</teiHeader>
 		<text>
 			<body>
- <p><ref target="manuscript_information.xml" type="button">About the manuscript</ref></p>
+			<div>
+			 <p><ref target="manuscript_information.xml" type="button">About the manuscript</ref></p>
 			<p><ref target="sir_eglamour_info.xml" type="button">About Sir Eglamour</ref></p>
 			<p><ref target="middle_english_romance.xml" type="button">About Middle English romances</ref></p>
 
@@ -292,16 +293,9 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 	  <bibl rendition="#hang" xml:id="Locht"><persName>Joana van de Löcht</persName>. <title level="a">Behaving like Print. On the Graphic and Performative Adaptation of Printed Letters in Early Modern Handwriting</title>.<title level="m"> Between Manuscript and Print: Transcultural Perspectives, ca. 1400–1800</title>, edited by Sylvia Brockstieger and Paul Schweitzer-Martin, De Gruyter, <date when="2023">2023</date>,<biblScope unit="pp">139–158</biblScope>. <ref target="https://doi.org/10.1515/9783111242699-006">https://doi.org/10.1515/9783111242699-006</ref>.</bibl>
 	  </listBibl>
         </div>
-   </div>
-	
-	 <div>	
-  <p><ref target="sir_eglamour_of_artois.xml" type="button">Go back to the manuscript</ref></p>
-</div>
- 
-      </div>
-  
- 		
-  <ref target="sir_eglamour_of_artois.xml" type="button">Go back to the manuscript</ref>
+   </div>	
+ <p><ref target="sir_eglamour_of_artois.xml" type="button">Go back to the manuscript</ref></p>
+			</div>
 			</body>
 	</text>
 </TEI>
