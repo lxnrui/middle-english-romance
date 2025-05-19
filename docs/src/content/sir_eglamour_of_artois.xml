@@ -333,13 +333,14 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 
 				<pb n="f.026v" type="folio" facs="../images/Bodleian-Library-MS-Douce-261_00014_fol-026v_reduced.jpg"/>
 				<lg>
-					<l xml:id="line64"> Ye are a knyght of lyttell lande<note place="margin" type="comment">This line corresponds to line 64 of MS. Ff. ii. 38 and MS. Cotton Caligula A.ii.</note></l>
-					<l> And moche woulde haue more.</l>
-					<l> Yf ye ſhoulde to that lady gone</l>
-					<l> And <term xml:id="t1">ſhewe</term> to her hearte alone</l>
-					<l> She lightlye woulde let youe fare</l>
-					<l> The man that hewith ouer hye</l>
-					<l> Some chyppe falleth in hys cye</l>
+					<l n="64"> Ye are a knyght of lyttell lande</l>
+					<note>A line is missing here.</note>  
+					<l n="65"> And moche woulde haue more.</l>
+					<l n="66"> Yf ye ſhoulde to that lady gone</l>
+					<l n="67"> And <term xml:id="t1">ſhewe</term> to her hearte alone</l>
+					<l n="68"> She lightlye woulde let youe fare</l>
+					<l n="69"> The man that hewith ouer hye</l>
+					<l n="70"> Some chyppe falleth in hys cye</l>
 					<l> Thus fare dothe yt euer.</l>
 					<l> Remember master of one thynge</l>
 					<l> That her woulde haue both earle and kynge</l>
