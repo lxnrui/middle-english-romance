@@ -333,7 +333,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 
 				<pb n="f.026v" type="folio" facs="../images/Bodleian-Library-MS-Douce-261_00014_fol-026v_reduced.jpg"/>
 				<lg>
-					<l xml:id="line64"> Ye are a knyght of lyttell lande<note place="margin" type="comment">This line corresponds to line 64 of the Cambridge MS. Ff. ii. 38</note></l>
+					<l xml:id="line64"> Ye are a knyght of lyttell lande<note place="margin" type="comment">This line corresponds to line 64 of MS. Ff. ii. 38 and MS. Cotton Caligula A.ii.</note></l>
 					<l> And moche woulde haue more.</l>
 					<l> Yf ye ſhoulde to that lady gone</l>
 					<l> And <term xml:id="t1">ſhewe</term> to her hearte alone</l>
