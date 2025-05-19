@@ -280,12 +280,22 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 			<p><ref target="sir_eglamour_info.xml" type="button">About the Poem</ref></p>
 			<p><ref target="middle_english_romance.xml" type="button">About Middle English Romances</ref></p>
 
-	 <div>
-     	<p rendition="#center #x-large">Hi! My name is Xinrui Li and I created this page for lovers of Middle English to explore the exciting world of Middle English romances. I transcribed parts of the romance of <title level="m" rendition="i">Sir Eglamour of Artois</title> in the Bodleian Library MS. Douce 261 manuscript and added additional background information to go with the transcription.</p>
-	 <lb/>
-	<p>This website is hosted by Github. You can visit my repository and view the TEI files <ref target="https://github.com/lxnrui/middle-english-romance"> type="button">here</ref></p>. 
-	<p>Notice an error or would you like to discuss the material? Reach me via lixnrui@gmail.com or start an issue via the repository.</p>
-	 </div>
+	<div>
+  <p rendition="#center #x-large">
+    Hi! My name is Xinrui Li and I created this page for lovers of Middle English to explore the exciting world of Middle English romances. I transcribed parts of the romance of 
+    <title level="m" rendition="i">Sir Eglamour of Artois</title> in the Bodleian Library MS. Douce 261 manuscript and added additional background information to go with the transcription.
+  </p>
+
+  <p>
+    This website is hosted by GitHub. You can visit my repository and view the TEI files 
+    <ref target="https://github.com/lxnrui/middle-english-romance">here</ref>.
+  </p>
+
+  <p>
+    Notice an error or would you like to discuss the material? Reach me via lixnrui@gmail.com or start an issue via the repository.
+  </p>
+</div>
+
       
  
 		 </body>
