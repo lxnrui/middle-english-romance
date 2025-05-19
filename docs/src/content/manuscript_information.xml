@@ -275,7 +275,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 
 		<text>
  <body>
-     <p>This uses <term xml:id="t1">TEI</term> and <term xml:id="t2">XSLT</term>.</p>
+     <p>The Bodleian Library MS. Douce 261 manuscript is an interesting manuscript that has largely been overlooked. The manuscript is dated to 1564 and contains four Middle English romances, namely Sir Isembras, Sir Degore, The Jest of Sir Gawayne, and Sir Eglamour of Artois. What makes this manuscript so interesting is it is not a conventional manuscript; it is actually a hand transcription of a printed book. According to Joana van de Löcht, much has changed during the fifteenth century regarding the status of manuscripts and the status of books.<term xml:id="t1">TEI</term> and <term xml:id="t2">XSLT</term>.</p>
       
       <div type="glossary">
         <head>Glossary</head>
@@ -285,10 +285,10 @@ xmlns:html="http://www.w3.org/1999/xhtml">
         </list>
       </div>
    <div>
-        <head>Works Cited</head>
+        <head rendition="#centre">Works Cited</head>
         <div xml:id="works_cited">
           <listBibl>
-	  <bibl rendition="#hang" xml:id="Locht"><author>Joana van de Löcht</author>. <title level="a">Behaving like Print. On the Graphic and Performative Adaptation of Printed Letters in Early Modern Handwriting</title>.<title level="m">Between Manuscript and Print: Transcultural Perspectives, ca. 1400–1800</title>,edited by Sylvia Brockstieger and Paul Schweitzer-Martin.Berlin, Boston: De Gruyter,<date when="2023">2023</date>,<biblScope unit="pp">139–158</biblScope>.<ref target="https://doi.org/10.1515/9783111242699-006">https://doi.org/10.1515/9783111242699-006</ref>.</bibl>
+	  <bibl rendition="#hang" xml:id="Locht"><author>Joana van de Löcht</author>. <title level="a">Behaving like Print. On the Graphic and Performative Adaptation of Printed Letters in Early Modern Handwriting</title>.<title level="m"> Between Manuscript and Print: Transcultural Perspectives, ca. 1400–1800</title>, edited by Sylvia Brockstieger and Paul Schweitzer-Martin, De Gruyter, <date when="2023">2023</date>,<biblScope unit="pp">139–158</biblScope>.<ref target="https://doi.org/10.1515/9783111242699-006">https://doi.org/10.1515/9783111242699-006</ref>.</bibl>
 	  </listBibl>
         </div>
    </div>
