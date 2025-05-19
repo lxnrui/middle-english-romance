@@ -10,8 +10,8 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 				<title type="sub">A manuscript that looks like a printed book</title>
 			</titleStmt>
 			<publicationStmt>
-				<pubPlace>Leiden, the Netherlands</pubPlace>
 				<publisher>Self-Publishing</publisher>
+				<pubPlace>Leiden, the Netherlands</pubPlace>
 				<availability status="free">
 					<p>
 				  The information is written by © 2025 Xinrui Li. It cites works from 
@@ -33,7 +33,9 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 				</p>
 				</availability>
 			</publicationStmt>
-		
+		<sourceDesc>
+ <p>This is an original work.</p>
+		</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<tagsDecl>	
@@ -272,7 +274,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 	</teiHeader>
 
 		<text>
- 
+ <body>
      <p>This uses <term xml:id="t1">TEI</term> and <term xml:id="t2">XSLT</term>.</p>
       
       <div type="glossary">
@@ -298,7 +300,11 @@ xmlns:html="http://www.w3.org/1999/xhtml">
           </listBibl>
         </div>
    </div>
- <div> <ref target="sir_eglamour_of_artois.xml" type="button">Go back to the manuscript</ref></div>
-		</div>		
+	 <div>	
+  <p><ref target="sir_eglamour_of_artois.xml" type="button">Go back to the manuscript</ref></p>
+</div>
+</div>
+	 
+ </body>
 	</text>
 </TEI>
