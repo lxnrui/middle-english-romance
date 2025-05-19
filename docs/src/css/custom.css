@@ -55,14 +55,3 @@ term:focus {
   outline-offset: 2px;
 }
 
-
-@keyframes highlight {
-  0% { background-color: #fffacd; }
-  100% { background-color: transparent; }
-}
-
-item:target,
-.highlighted-term {
-  animation: highlight 2.5s;
-}
-
