@@ -275,10 +275,10 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 
 		<text>
  <body>
-	 <p><ref target="homepage.xml" type="button">Homepage</ref></p>
-	  <p><ref target="manuscript_information.xml" type="button">About the manuscript</ref></p>
-			<p><ref target="sir_eglamour_info.xml" type="button">About Sir Eglamour</ref></p>
-			<p><ref target="middle_english_romance.xml" type="button">About Middle English romances</ref></p>
+	 <p><ref target="homepage.xml">Homepage</ref></p>
+	  <p><ref target="manuscript_information.xml">About the manuscript</ref></p>
+			<p><ref target="sir_eglamour_info.xml">About Sir Eglamour</ref></p>
+			<p><ref target="middle_english_romance.xml">About Middle English romances</ref></p>
 
 	 <div>
      	<p>The Bodleian Library MS. Douce 261 manuscript is an interesting manuscript that has largely been overlooked. The manuscript is dated to <date notAfter="1600" notBefore="1500">1564</date> and contains four Middle English romances, namely <title level="m">Sir Isembras</title>, <title level="m">Sir Degore</title>, <title level="m">The Jest of Sir Gawayne</title>, and <title level="m">Sir Eglamour of Artois</title>. What makes this manuscript so interesting is it is not a conventional manuscript; it is actually a transcription of a different book.</p>
@@ -290,13 +290,13 @@ xmlns:html="http://www.w3.org/1999/xhtml">
         <head rendition="#centre">Works Cited</head>
         <div xml:id="works_cited">
           <listBibl>
-	  <bibl rendition="#hang" xml:id="Locht"><persName>Löcht, Joana van de</persName>. <title level="a">Behaving like Print. On the Graphic and Performative Adaptation of Printed Letters in Early Modern Handwriting</title>.<title level="m"> Between Manuscript and Print: Transcultural Perspectives, ca. 1400–1800</title>, edited by Sylvia Brockstieger and Paul Schweitzer-Martin, De Gruyter, <date when="2023">2023</date>,<biblScope unit="pp">139–158</biblScope>.<ref target="https://doi.org/10.1515/9783111242699-006">https://doi.org/10.1515/9783111242699-006</ref>.</bibl>
+	  <bibl rendition="#hang" xml:id="Locht"><persName>Löcht, Joana van de</persName>. <title level="a">Behaving like Print. On the Graphic and Performative Adaptation of Printed Letters in Early Modern Handwriting</title>.<title level="m"> Between Manuscript and Print: Transcultural Perspectives, ca. 1400–1800</title>, edited by Sylvia Brockstieger and Paul Schweitzer-Martin, De Gruyter, <date when="2023">2023</date>,<biblScope unit="pp">139–158</biblScope>. <ref target="https://doi.org/10.1515/9783111242699-006">https://doi.org/10.1515/9783111242699-006</ref>.</bibl>
 	  </listBibl>
         </div>
    </div>
 	
 	 <div>	
-  <p><ref target="sir_eglamour_of_artois.xml" type="button">Go back to the transcription</ref></p>
+  <p><ref target="sir_eglamour_of_artois.xml">Go back to the transcription</ref></p>
 </div>
  
 		 </body>
