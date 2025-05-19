@@ -298,7 +298,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
           </listBibl>
         </div>
    </div>
-  <ref target="sir_eglamour_of_artois.xml" type="button">Go back to the manuscript</ref>
-		
+ <div> <ref target="sir_eglamour_of_artois.xml" type="button">Go back to the manuscript</ref></div>
+		</div>		
 	</text>
 </TEI>
