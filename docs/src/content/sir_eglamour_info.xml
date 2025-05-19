@@ -277,6 +277,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 			<p><ref target="middle_english_romance.xml" type="button">About Middle English romances</ref></p>
 
      <p>Sir Eglamour is a <term xml:id="t1">Middle English Romance</term>.</p>
+			<lg><p>Trying this a different way go to<ref target="middle_english_romance.xml" type="button">Middle English romances</ref></p></lg>
       
       <div type="glossary">
         <head>Glossary</head>
