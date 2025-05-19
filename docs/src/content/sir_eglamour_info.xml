@@ -289,7 +289,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
         <div xml:id="works_cited">
           <listBibl>
 	 <bibl rendition="#hang" xml:id="Perkins"><author>Perkins, Nicholas</author>. <title level="a">Ekphrasis and Narrative in Emaré and Sir Eglamour of Artois</title>.<title level="m">Medieval Romance, Medieval Contexts</title>, edited by Michael Cichon and Rhiannon Purdie. Boydell and Brewer Limited, <date when="2011">2011</date>, <biblScope unit="pp">47–60</biblScope>. <ref target="https://doi.org/10.1515/9781846158391-008">https://doi.org/10.1515/9781846158391-008</ref>. </bibl>
-	  <bibl rendition="#hang" xml:id="Tigges"><author>Tigges, Wim</author>. <title level="a">‘Sir Eglamour’: The Knight Who Could Not Say No</title>. <title level="j">Neophilologus</title>, <biblScope unit="vol">72</biblScope>, <biblScope unit="issue">1</biblScope>, <date when="1988">1988</date>, <biblScope unit="pp">107</biblScope>. <ref target="https://login.ezproxy.leidenuniv.nl/login??url=https://www.proquest.com/scholarly-journals/sir-eglamour-knight-who-could-not-say-no/docview/1301898963/se-2">ProQuest</ref>. </bibl>
+	  <bibl rendition="#hang" xml:id="Tigges"><author>Tigges, Wim</author>. <title level="a">‘Sir Eglamour’: The Knight Who Could Not Say No</title>. <title level="j">Neophilologus</title>, <biblScope unit="vol">72</biblScope>, <biblScope unit="issue">1</biblScope>, <date when="1988">1988</date>, <biblScope unit="pp">107</biblScope>. <ref target="https://doi.org/10.1007/BF00396071.">https://doi.org/10.1007/BF00396071.</ref>. </bibl>
 	  </listBibl>
         </div>
    </div>	
