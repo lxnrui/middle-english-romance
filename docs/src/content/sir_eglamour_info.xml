@@ -272,7 +272,10 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 	</teiHeader>
 
 		<text>
- 
+ <p><ref target="manuscript_information.xml" type="button">About the manuscript</ref></p>
+			<p><ref target="sir_eglamour_info.xml" type="button">About Sir Eglamour</ref></p>
+			<p><ref target="middle_english_romance.xml" type="button">About Middle English romances</ref></p>
+
      <p>Sir Eglamour is a <term xml:id="t1">Middle English Romance</term>.</p>
       
       <div type="glossary">
