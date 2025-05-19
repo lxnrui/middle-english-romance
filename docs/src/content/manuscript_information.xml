@@ -297,8 +297,8 @@ xmlns:html="http://www.w3.org/1999/xhtml">
             <bibl rendition="#hang" xml:id="walsh2012"><ref target="http://swinburneproject.org/">The Algernon Charles Swinburne Project</ref>. Ed. John A. Walsh. Vers. 3.0 (March 2012). Digital Culture Lab, School of Library and Information Science, Indiana U. 14 April 2012. <ptr rendition="#bracket" target="http://www.swinburnearchive.org/"/>.</bibl>
           </listBibl>
         </div>
- 		
+   </div>
   <ref target="sir_eglamour_of_artois.xml" type="button">Go back to the manuscript</ref>
-
+		
 	</text>
 </TEI>
