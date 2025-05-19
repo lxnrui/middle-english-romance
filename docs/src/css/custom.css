@@ -1,10 +1,9 @@
 div[type="glossary"] {
   background:#f5f2eb;            
   border: 10px solid #c5d1c5; 
-  border-radius: 1px;
   padding: 1.5em;
   margin: 2em 0;
-  box-shadow: 0 0 0 4px #45423b, 
+  box-shadow: 0 0 0 3px rgba(0,0,0,0.1), 
               0 1px 3px rgba(0,0,0,0.1);
   font-family: "Gentium Book Basic", serif;
   color: #3a3329;            
