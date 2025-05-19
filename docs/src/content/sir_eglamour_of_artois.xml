@@ -333,8 +333,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 
 				<pb n="f.026v" type="folio" facs="../images/Bodleian-Library-MS-Douce-261_00014_fol-026v_reduced.jpg"/>
 				<lb/>
-					<l n="64"> Ye are a knyght of lyttell lande</l>
-					<note>A line is missing here.</note>  
+					<l n="64"> Ye are a knyght of lyttell lande</l> 
 					<l n="65"> And moche woulde haue more.</l>
 					<l n="66"> Yf ye ſhoulde to that lady gone</l>
 					<l n="67"> And <term xml:id="t1">ſhewe</term> to her hearte alone</l>
@@ -451,6 +450,30 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 					<l n="311"> And with a ryche pane</l>
 					<l n="311"> The chylde to as large of lymine and lythe</l>
 					<l n="311"> A gyrdle of golde yt was bounde withe</l>
+				<pb n="f.044r" type="folio" facs="../images/Bodleian-Library-MS-Douce-261_00016_fol-031r_reduced.jpg"/>
+				<lb/>
+					<l n="306"> And Chrystabell that ladye bright</l>
+					<l n="307"> To churche they her ladde</l>
+					<l n="308"> Throughe the myght of god he ſpedde</l>
+					<l n="309"> Hys owne mother there he wedde</l>
+					<l n="310"> In Romaunce as we reade</l>
+					<l n="311"> She ſawe hys armes hym beforne</l>
+					<l n="311"> She thought on hym that was forlorne</l>
+					<l n="311"> She wepte lyke to be deadde</l>
+				<pb n="f.046r" type="folio" facs="../images/Bodleian-Library-MS-Douce-261_00016_fol-031r_reduced.jpg"/>
+				<lb/>
+					<l n="306"> That daye fall haue I ſene</l>
+					<l n="307"> With as bygge men haue I bene</l>
+					<l n="308"> And yet well gone my waye</l>
+					<l n="309"> And yet forſothe ſayde he than</l>
+					<l n="310"> I wyll do as well as I canne</l>
+					<l n="311"> with youe ones to playe</l>
+				<pb n="f.048v" type="folio" facs="../images/Bodleian-Library-MS-Douce-261_00016_fol-031r_reduced.jpg"/>
+				<lb/>
+				<p>IHS</p>
+				<p>1564</p>
+				<p>Here endeth Syr Eglamoure of Artois</p>
+				<p>XPS</p>
 						<div type="glossary">
 					        <head>Glossary</head>
 					        <list>
