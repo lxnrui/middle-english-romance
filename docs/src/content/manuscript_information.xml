@@ -275,7 +275,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 
 		<text>
  <body>
-	 <p><ref target="Homepage.xml" type="button">Homepage</ref></p>
+	 <p><ref target="homepage.xml" type="button">Homepage</ref></p>
 	  <p><ref target="manuscript_information.xml" type="button">About the manuscript</ref></p>
 			<p><ref target="sir_eglamour_info.xml" type="button">About Sir Eglamour</ref></p>
 			<p><ref target="middle_english_romance.xml" type="button">About Middle English romances</ref></p>
