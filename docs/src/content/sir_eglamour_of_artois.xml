@@ -332,7 +332,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 			<p><ref target="middle_english_romance.xml" type="button">About Middle English romances</ref></p>
 
 				<pb n="f.026v" type="folio" facs="../images/Bodleian-Library-MS-Douce-261_00014_fol-026v_reduced.jpg"/>
-				<lg>
+				<lb/>
 					<l n="64"> Ye are a knyght of lyttell lande</l>
 					<note>A line is missing here.</note>  
 					<l n="65"> And moche woulde haue more.</l>
@@ -341,32 +341,44 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 					<l n="68"> She lightlye woulde let youe fare</l>
 					<l n="69"> The man that hewith ouer hye</l>
 					<l n="70"> Some chyppe falleth in hys cye</l>
-					<l> Thus fare dothe yt euer.</l>
-					<l> Remember master of one thynge</l>
-					<l> That her woulde haue both earle and kynge</l>
-					<l> And Dukes that are bolde.</l>
-					<l> And many a bolde Baron also</l>
-				</lg>
+					<l n="71"> Thus fare dothe yt euer.</l>
+					<l n="72"> Remember master of one thynge</l>
+					<l n="73"> That her woulde haue both earle and kynge</l>
+					<l n="74"> And Dukes that are bolde.</l>
+					<l n="75"> And many a bolde Baron also</l>
 				<pb n="f.028r" type="folio" facs="../images/Bodleian-Library-MS-Douce-261_00015_fol-028r_reduced.jpg"/>
-					<l> But wente there as he lay</l>
-					<l> Master ſaid hys ſquyerbe of good chere</l>
-					<l> Here cometh the Earles doughter dere</l>
-					<l> Some what to the to ſaye</l>
-					<l> And than ſayde that lady bryght</l>
-					<l> Howe fareth Syr <persName xml:id="Eglamour">Eglamoure</persName> my knyght</l>
-					<l> That ys a man right fayre</l>
-					<l> Forſoth ladye as ye maye ſee</l>
-					<l> With wo am I bounde for the loue of the</l>
-					<l> In longynge and in care</l>
-					<l> Syr ſhe ſayd by gods pytte.</l>
-				 <div type="glossary">
-        <head>Glossary</head>
-        <list>
- <item xml:id="gloss-t1">
-  <term ref="#t1">ſhewe</term>: 
-  <gloss>show</gloss></item>
-</list>
-      </div>
+				<lb/>
+					<l n="135"> But wente there as he lay</l>
+					<l n="136"> Master ſaid hys ſquyerbe of good chere</l>
+					<l n="137"> Here cometh the Earles doughter dere</l>
+					<l n="138"> Some what to the to ſaye</l>
+					<l n="139"> And than ſayde that lady bryght</l>
+					<l n="140"> Howe fareth Syr <persName xml:id="Eglamour">Eglamoure</persName> my knyght</l>
+					<l n="141"> That ys a man right fayre</l>
+					<l n="142"> Forſoth ladye as ye maye ſee</l>
+					<l n="143"> With wo am I bounde for the loue of the</l>
+					<l n="144"> In longynge and in care</l>
+					<l n="145"> Syr ſhe ſayd by gods pytte.</l>
+				<pb n="f.031r" type="folio" facs="../images/Bodleian-Library-MS-Douce-261_00015_fol-028r_reduced.jpg"/>
+				<lb/>
+					<l n="305"> My pryncypall harte thou haste ſlayne</l>
+					<l n="306"> Thou ſhalt yt lyke fall yll</l>
+					<l n="307"> The gyaunte at the chaſes</l>
+					<l n="308"> A greate Clubbe yp he takes</l>
+					<l n="309"> That byllanous was that tyde</l>
+					<l n="310"> Suche a ſtroke at hym he gaffe</l>
+					<l n="311"> That in to the earthe went hys ſtaffe</l>
+					<l n="312"> A foote on euery ſyde</l>
+				
+				
+						<div type="glossary">
+					        <head>Glossary</head>
+					        <list>
+					 <item xml:id="gloss-t1">
+					  <term ref="#t1">ſhewe</term>: 
+					  <gloss>show</gloss></item>
+					</list>
+					      </div>
 			</div>
 		</body>
 	</text>
