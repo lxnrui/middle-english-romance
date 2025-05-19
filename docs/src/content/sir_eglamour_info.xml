@@ -6,12 +6,12 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title type="main">About the manuscript</title>
-				<title type="sub">A manuscript that looks like a printed book</title>
+				<title type="main">About the story of Sir Eglamour</title>
+				<title type="sub">Genius or Generic?</title>
 			</titleStmt>
 			<publicationStmt>
-				<pubPlace>Leiden, the Netherlands</pubPlace>
 				<publisher>Self-Publishing</publisher>
+				<pubPlace>Leiden, the Netherlands</pubPlace>
 				<availability status="free">
 					<p>
 				  The information is written by © 2025 Xinrui Li. It cites works from 
@@ -33,7 +33,9 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 				</p>
 				</availability>
 			</publicationStmt>
-		
+		<sourceDesc>
+ <p>This is an original work.</p>
+		</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
 			<tagsDecl>	
@@ -270,25 +272,36 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 			</tagsDecl>
 		</encodingDesc>
 	</teiHeader>
-
 		<text>
+			<body>
  <p><ref target="manuscript_information.xml" type="button">About the manuscript</ref></p>
 			<p><ref target="sir_eglamour_info.xml" type="button">About Sir Eglamour</ref></p>
 			<p><ref target="middle_english_romance.xml" type="button">About Middle English romances</ref></p>
 
-     <p>Sir Eglamour is a <term xml:id="t1">Middle English Romance</term>.</p>
-			<lg><p>Trying this a different way go to<ref target="middle_english_romance.xml" type="button">Middle English romances</ref></p></lg>
+    	
+	 <div>
+     	<p>The Bodleian Library MS. Douce 261 manuscript is an interesting manuscript that has largely been overlooked. The manuscript is dated to <date notAfter="1600" notBefore="1500">1564</date> and contains four Middle English romances, namely <title level="m">Sir Isembras</title>, <title level="m">Sir Degore</title>, <title level="m">The Jest of Sir Gawayne</title>, and <title level="m">Sir Eglamour of Artois</title>. What makes this manuscript so interesting is it is not a conventional manuscript; it is actually a transcription of a different book.</p>
+	<p>According to <persName>Joana van de Löcht</persName>, much has changed during the <date notAfter="1600" notBefore="1500">fifteenth century</date> regarding the status of manuscripts and the status of books. The printing press made books much more accessible, but it did not results to an abandonment of manuscripts. Instead, manuscripts were still very valued and circulated among many as "treasures"<ref target="#Locht">(143)</ref>. The book and the manuscript did influence each other and manuscripts were seen to emulate characteristics of printed books, which can be recognised by the uniform "letterform," "designed title page[s]," use of "paratexts," and "pictorial plates" <ref target="#Locht">(Löcht 146-147)</ref>.</p>
+	<p>The MS. Douce 261 clearly reflects the matter of the handwriting in its extreme neatness. All the letters are written uniformly, demonstrating a care to emulate prints.</p>
+	 </div>
       
-      <div type="glossary">
-        <head>Glossary</head>
-        <list>
-          <item><term ref="#t1">Middle English Romance</term>: navigate to About Middle English Romance for more information about the genre</item>
-          
-        </list>
+   <div>
+        <head rendition="#centre">Works Cited</head>
+        <div xml:id="works_cited">
+          <listBibl>
+	  <bibl rendition="#hang" xml:id="Locht"><persName>Joana van de Löcht</persName>. <title level="a">Behaving like Print. On the Graphic and Performative Adaptation of Printed Letters in Early Modern Handwriting</title>.<title level="m"> Between Manuscript and Print: Transcultural Perspectives, ca. 1400–1800</title>, edited by Sylvia Brockstieger and Paul Schweitzer-Martin, De Gruyter, <date when="2023">2023</date>,<biblScope unit="pp">139–158</biblScope>. <ref target="https://doi.org/10.1515/9783111242699-006">https://doi.org/10.1515/9783111242699-006</ref>.</bibl>
+	  </listBibl>
+        </div>
+   </div>
+	
+	 <div>	
+  <p><ref target="sir_eglamour_of_artois.xml" type="button">Go back to the manuscript</ref></p>
+</div>
+ 
       </div>
   
  		
   <ref target="sir_eglamour_of_artois.xml" type="button">Go back to the manuscript</ref>
-
+			</body>
 	</text>
 </TEI>
