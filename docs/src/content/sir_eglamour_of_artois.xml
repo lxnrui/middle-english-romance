@@ -305,7 +305,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 				</rendition>
 				
 				<rendition xml:id="xxx-large" n="tiebp:xxx-large" scheme="css">
-					font-size:120%;
+					font-size:140%;
 				</rendition>
 
 				<rendition xml:id="xxxx-large" n="tiebp:xxxx-large" scheme="css">
