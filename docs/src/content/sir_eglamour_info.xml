@@ -6,7 +6,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title type="main">About the story of Sir Eglamour</title>
+				<title type="main">About the Poem</title>
 				<title type="sub">Genius or Generic?</title>
 			</titleStmt>
 			<publicationStmt>
@@ -275,21 +275,21 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 		<text>
 			<body>
 			<div>
+			<p><ref target="Homepage.xml" type="button">Homepage</ref></p>
 			 <p><ref target="manuscript_information.xml" type="button">About MS. Douce 261</ref></p>
 			<p><ref target="middle_english_romance.xml" type="button">About Middle English romances</ref></p>
 
     	
 	 <div>
-     	<p>The Bodleian Library MS. Douce 261 manuscript is an interesting manuscript that has largely been overlooked. The manuscript is dated to <date notAfter="1600" notBefore="1500">1564</date> and contains four Middle English romances, namely <title level="m">Sir Isembras</title>, <title level="m">Sir Degore</title>, <title level="m">The Jest of Sir Gawayne</title>, and <title level="m">Sir Eglamour of Artois</title>. What makes this manuscript so interesting is it is not a conventional manuscript; it is actually a transcription of a different book.</p>
-	<p>According to <persName>Joana van de Löcht</persName>, much has changed during the <date notAfter="1600" notBefore="1500">fifteenth century</date> regarding the status of manuscripts and the status of books. The printing press made books much more accessible, but it did not results to an abandonment of manuscripts. Instead, manuscripts were still very valued and circulated among many as "treasures"<ref target="#Locht">(143)</ref>. The book and the manuscript did influence each other and manuscripts were seen to emulate characteristics of printed books, which can be recognised by the uniform "letterform," "designed title page[s]," use of "paratexts," and "pictorial plates" <ref target="#Locht">(Löcht 146-147)</ref>.</p>
-	<p>The MS. Douce 261 clearly reflects the matter of the handwriting in its extreme neatness. All the letters are written uniformly, demonstrating a care to emulate prints.</p>
+     	<p> placeholder</p>
 	 </div>
       
    <div>
         <head rendition="#centre">Works Cited</head>
         <div xml:id="works_cited">
           <listBibl>
-	  <bibl rendition="#hang" xml:id="Locht"><persName>Joana van de Löcht</persName>. <title level="a">Behaving like Print. On the Graphic and Performative Adaptation of Printed Letters in Early Modern Handwriting</title>.<title level="m"> Between Manuscript and Print: Transcultural Perspectives, ca. 1400–1800</title>, edited by Sylvia Brockstieger and Paul Schweitzer-Martin, De Gruyter, <date when="2023">2023</date>,<biblScope unit="pp">139–158</biblScope>. <ref target="https://doi.org/10.1515/9783111242699-006">https://doi.org/10.1515/9783111242699-006</ref>.</bibl>
+	 <bibl><author>Nicholas Perkins</author>. <title level="a">Ekphrasis and Narrative in Emaré and Sir Eglamour of Artois</title>.<title level="m">Medieval Romance, Medieval Contexts</title>, edited by Michael Cichon and Rhiannon Purdie. Boydell and Brewer Limited, <date when="2011">2011</date>, <biblScope unit="pp">47–60</biblScope>. <ref target="https://doi.org/10.1515/9781846158391-008">https://doi.org/10.1515/9781846158391-008</ref>. </bibl>
+	  <bibl><author>Wim Tigges</author>. <title level="a">‘Sir Eglamour’: The Knight Who Could Not Say No</title>. <title level="j">Neophilologus</title>, <biblScope unit="vol">72</biblScope>, <biblScope unit="issue">1</biblScope>, <date when="1988">1988</date>, <biblScope unit="pp">107</biblScope>. <ref target="https://login.ezproxy.leidenuniv.nl/login??url=https://www.proquest.com/scholarly-journals/sir-eglamour-knight-who-could-not-say-no/docview/1301898963/se-2">ProQuest</ref>. </bibl>
 	  </listBibl>
         </div>
    </div>	
