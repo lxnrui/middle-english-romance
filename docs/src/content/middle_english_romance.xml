@@ -289,7 +289,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
         <head rendition="#centre">Works Cited</head>
         <div xml:id="works_cited">
           <listBibl>
-	  <bibl rendition="#hang" xml:id="Locht"><persName>Joana van de Löcht</persName>. <title level="a">Behaving like Print. On the Graphic and Performative Adaptation of Printed Letters in Early Modern Handwriting</title>.<title level="m"> Between Manuscript and Print: Transcultural Perspectives, ca. 1400–1800</title>, edited by Sylvia Brockstieger and Paul Schweitzer-Martin, De Gruyter, <date when="2023">2023</date>,<biblScope unit="pp">139–158</biblScope>.<ref target="https://doi.org/10.1515/9783111242699-006">https://doi.org/10.1515/9783111242699-006</ref>.</bibl>
+	   <bibl rendition="#hang" xml:id="Finlayson"><author>Finlayson, John</author>. <title level="a">Definitions of Middle English Romance</title>. <title level="j">The Chaucer Review</title>, <biblScope unit="vol">15</biblScope>, <biblScope unit="issue">2</biblScope>, <date when="1980">1980</date>, <biblScope unit="pp">168–181</biblScope>.</bibl>
 	  </listBibl>
         </div>
    </div>
