@@ -335,9 +335,9 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 		<body>
 			<div type="romance" xml:id="sireglamour">
     <index indexName="text"/>
-			<p><ref target="manuscript_information.xml" type="button">About the manuscript</ref></p>
-			<p><ref target="sir_eglamour_info.xml" type="button">About Sir Eglamour</ref></p>
-			<p><ref target="middle_english_romance.xml" type="button">About Middle English romances</ref></p>
+			<p><ref target="manuscript_information.xml" type="button">About MS. Douce 261</ref></p>
+			<p><ref target="sir_eglamour_info.xml" type="button">About the Poem</ref></p>
+			<p><ref target="middle_english_romance.xml" type="button">About Middle English Romances</ref></p>
 
 				<pb n="f.026v" type="folio" facs="../images/Bodleian-Library-MS-Douce-261_00014_fol-026v_reduced.jpg"/>
 				<lb/>
