@@ -478,16 +478,24 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 					<l n="1222"> with youe ones to playe</l>
 				<pb n="f.048v" type="folio" facs="../images/Bodleian-Library-MS-Douce-261_00025_fol-048v_reduced.jpg"/>
 				<lb/>
-				<p rendition="#xxxxx-large #center #b">IHS</p>
-				<p rendition="#xxx-large #center #b">1564</p>
+				<p><l rendition="#xxxxx-large #center #b"><term xml:id="t2">IHS</term></l>
+				 <l rendition="#xxx-large #center #b">1564</l></p>
+				<lb/>
 				<p rendition="#center">Here endeth Syr Eglamoure of Artois</p>
-				<p rendition="#xxxx-large #center #b">XPS</p>
+				<lb/>
+				<p rendition="#xxxx-large #center #b"><term xml:id="t3">XPS</term></p>
 						<div type="glossary">
 					        <head>Glossary</head>
 					        <list>
 					 <item xml:id="gloss-t1">
 					  <term ref="#t1">ſhewe</term>: 
 					  <gloss>show</gloss></item>
+					<item xml:id="gloss-t2">
+					  <term ref="#t1">IHS</term>: 
+					  <gloss>Jesus</gloss></item>
+					<item xml:id="gloss-t3">
+					  <term ref="#t1">XPS</term>: 
+					  <gloss>Christ</gloss></item>
 					</list>
 					      </div>
 			</div>
