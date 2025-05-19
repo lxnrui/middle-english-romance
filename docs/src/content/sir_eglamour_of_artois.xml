@@ -335,6 +335,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 		<body>
 			<div type="romance" xml:id="sireglamour">
     <index indexName="text"/>
+			<p><ref target="Homepage.xml" type="button">Homepage</ref></p>
 			<p><ref target="manuscript_information.xml" type="button">About MS. Douce 261</ref></p>
 			<p><ref target="sir_eglamour_info.xml" type="button">About the Poem</ref></p>
 			<p><ref target="middle_english_romance.xml" type="button">About Middle English Romances</ref></p>
