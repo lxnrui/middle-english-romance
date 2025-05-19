@@ -470,10 +470,10 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 					<l n="311"> with youe ones to playe</l>
 				<pb n="f.048v" type="folio" facs="../images/Bodleian-Library-MS-Douce-261_00025_fol-048v_reduced.jpg"/>
 				<lb/>
-				<p>IHS</p>
-				<p>1564</p>
-				<p>Here endeth Syr Eglamoure of Artois</p>
-				<p>XPS</p>
+				<p rendition="#xxx-large #center #b">IHS</p>
+				<p rendition="#xx-large #center #b">1564</p>
+				<p rendition="#center">Here endeth Syr Eglamoure of Artois</p>
+				<p rendition="#xx-large #center #b">XPS</p>
 						<div type="glossary">
 					        <head>Glossary</head>
 					        <list>
