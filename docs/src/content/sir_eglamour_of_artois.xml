@@ -477,8 +477,8 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 					<l n="1220"> And yet forſothe ſayde he than</l>
 					<l n="1221"> I wyll do as well as I canne</l>
 					<l n="1222"> with youe ones to playe</l>
-				</body>
-		<back><colophon>
+				
+		
 				<pb n="f.048v" type="folio" facs="../images/Bodleian-Library-MS-Douce-261_00025_fol-048v_reduced.jpg"/>
 				<lb/>
 				<p><l rendition="#xxxxx-large #center #b"><term xml:id="t2">IHS</term></l>
@@ -487,7 +487,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 				<p rendition="#center">Here endeth Syr Eglamoure of Artois</p>
 				<lb/>
 				<p rendition="#xxxx-large #center #b"><term xml:id="t3">XPS</term></p>
-		</back></colophon>
+		
 						<div type="glossary">
 					        <head>Glossary</head>
 					        <list>
@@ -503,6 +503,6 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 					</list>
 					      </div>
 			</div>
-		
+		</body>
 	</text>
 </TEI>
