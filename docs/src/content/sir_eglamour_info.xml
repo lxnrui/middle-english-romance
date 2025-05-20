@@ -289,7 +289,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 	 </div>
       
    <div>
-        <head rendition="#centre">Works Cited</head>
+        <head rendition="#center">Works Cited</head>
         <div xml:id="works_cited">
           <listBibl>
 	<bibl rendition="#hang" xml:id="Hudson"><author>Hudson, Harriet</author>. <title level="m">Four Middle English Romances</title>. <edition>2nd ed.</edition>. <publisher>Medieval Institute Publications</publisher>, <date when="2006">2006</date>. <note>Originally published 1997.</note> <ref target="https://metseditions.org/texts/NbBWa14TpGDbCABdSXbX6CALjPjbQzd">Online edition available at METS Editions</ref>.</bibl>
