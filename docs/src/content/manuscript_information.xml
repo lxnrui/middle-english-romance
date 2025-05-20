@@ -286,7 +286,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 	<p>It is unclear which manuscript might have parented MS. Douce 261, as the spelling and grammar conventions used by this one do not match any of the currently known manuscripts containing the same stories. Notably, the current line numbering system merely serves to aid in the finding of the corresponding lines and does not reflect the actual numbering. The line numberings encoded in my transcription are pure approximates based on the numbering of the British Library, MS. Cotton Caligula A.ii, as I do not have access to the whole of MS. Douce 261. The large difference between the several versions of this story exists on the line level too, further obscuring the numbering. Line 65 of the MS. Cotton Caligula, for example, does not exist in this version of the story.</p> 
 	 </div>
    <div>
-        <head rendition="#centre">Works Cited</head>
+        <head rendition="#center">Works Cited</head>
         <div xml:id="works_cited">
           <listBibl>
 	  <bibl rendition="#hang" xml:id="Locht"><persName>Löcht, Joana van de</persName>. <title level="a">Behaving like Print. On the Graphic and Performative Adaptation of Printed Letters in Early Modern Handwriting</title>.<title level="m"> Between Manuscript and Print: Transcultural Perspectives, ca. 1400–1800</title>, edited by Sylvia Brockstieger and Paul Schweitzer-Martin, De Gruyter, <date when="2023">2023</date>,<biblScope unit="pp">139–158</biblScope>. <ref target="https://doi.org/10.1515/9783111242699-006">https://doi.org/10.1515/9783111242699-006</ref>.</bibl>
