@@ -277,11 +277,12 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 
 		<text>
  <body>
+	<div>
 	 <p><ref target="homepage.xml">Homepage</ref></p>
 	  <p><ref target="manuscript_information.xml">About MS. Douce 261</ref></p>
 	<p><ref target="sir_eglamour_info.xml">About the Poem</ref></p>
 	 <p>Abour Middle English Romances</p>
-			
+	</div>	
 
 	 <div>
      	<p> On the website of <ref target="https://digital.bodleian.ox.ac.uk/objects/8e01260b-1455-4048-bb69-332600cfd631/surfaces/78cc173f-9486-46db-a42e-4f4fecda4aa2/" rendition="#i">Digital Bodleian</ref>, the story of <title level="m" rendition="#i">Sir Eglamour of Artois</title> is explicitly marked as a romance. If you are new to Middle English, you might be curious about what exactly constitutes the genre romance. Whenever we read a new piece of text, it almost seems natural that the editor has already placed the text among some genre classifications. With texts that are dated so long ago in literary history, one must be cautious in simply accepting the classifications that are placed by modern scholars. According to <persName>John Finlayson</persName>, Middle English romance has mostly been understood as stories involving themes of courtly love and supernatural elements <ref target="#Finlayson">(57-59)</ref>. <title level="m" rendition="#i">Sir Eglamour of Artois</title> is such a romance, embedded with supernatural elements, such as magic, and beast-slaying adventures.</p>
