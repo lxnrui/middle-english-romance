@@ -348,7 +348,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 					<l n="64"> Ye are a knyght of lyttell lande</l> 
 					<l n="65"> And moche woulde haue more.</l>
 					<l n="66"> Yf ye ſhoulde to that lady gone</l>
-					<l n="67"> And <term xml:id="t1">ſhewe</term> to her hearte alone</l>
+					<l n="67"> And ſhewe to her hearte alone</l>
 					<l n="68"> She lightlye woulde let youe fare.</l>
 					<l n="69"> The man that hewith ouer hye</l>
 					<l n="70"> Some chyppe falleth in hys cye</l>
@@ -374,7 +374,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 				
 					<l n="305"> My pryncypall harte thou haste ſlayne</l>
 					<l n="306"> Thou ſhalt yt lyke fall yll</l>
-					<l n="307"> The gyaunte at the chaſes</l>
+					<l n="307"> The <term xml:id="t1">gyaunte</term> at the chaſes</l>
 					<l n="308"> A greate Clubbe yp he takes</l>
 					<l n="309"> That byllanous was that tyde</l>
 					<l n="310"> Suche a ſtroke at hym he gaffe</l>
@@ -495,8 +495,8 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 					        <head>Glossary</head>
 					        <list>
 					 <item xml:id="gloss-t1">
-					  <term ref="#t1">ſhewe</term>: 
-					  <gloss>show</gloss></item>
+					  <term ref="#t1">gyaunte</term>: 
+					  <gloss><ref target="https://quod.lib.umich.edu/m/middle-english-dictionary/dictionary/MED18318/track?counter=1&search_id=1485402">giant</ref></gloss></item>
 					<item xml:id="gloss-t2">
 					  <term ref="#t1">IHS</term>: 
 					  <gloss>Jesus</gloss></item>
