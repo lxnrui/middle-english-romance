@@ -271,7 +271,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 				</rendition>
 			</tagsDecl>
 			<editorialDecl>
-				<p>Both character names and scholar names are encoded as <persName/>.
+				<p>Both character names and scholar names are encoded as <persName/>.</p>
 				</editorialDecl>
 		</encodingDesc>
 	</teiHeader>
