@@ -6,7 +6,8 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title type="main">Homepage</title>
+				<title type="main">Middle English Romance Digitisation</title>
+				<title type="sub">Homepage</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Self-Publishing</publisher>
