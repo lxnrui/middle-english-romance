@@ -276,6 +276,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 		<text>
  <body>
 	 <p><ref target="homepage.xml">Homepage</ref></p>
+	 <p>About MS. Douce 261</p>
 			<p><ref target="sir_eglamour_info.xml">About the Poem</ref></p>
 			<p><ref target="middle_english_romance.xml">About Middle English Romances</ref></p>
 
