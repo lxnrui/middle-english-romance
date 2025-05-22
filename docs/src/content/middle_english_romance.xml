@@ -276,22 +276,22 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 	</teiHeader>
 
 		<text>
- <body>
+ <front>
 	<div>
 	 <p><ref target="homepage.xml">Homepage</ref></p>
 	  <p><ref target="manuscript_information.xml">About MS. Douce 261</ref></p>
 	<p><ref target="sir_eglamour_info.xml">About the Poem</ref></p>
 	 <p>About Middle English Romances</p>
 	<p><ref target="sir_eglamour_of_artois.xml" type="button">Go back to the transcription</ref></p></div>
-		
-
+		</front>
+<body>
 	 <div>
      	<p> On the website of <ref target="https://digital.bodleian.ox.ac.uk/objects/8e01260b-1455-4048-bb69-332600cfd631/surfaces/78cc173f-9486-46db-a42e-4f4fecda4aa2/" rendition="#i">Digital Bodleian</ref>, the story of <title level="m" rendition="#i">Sir Eglamour of Artois</title> is explicitly marked as a romance. If you are new to Middle English, you might be curious about what exactly constitutes the genre romance. Whenever we read a new piece of text, it almost seems natural that the editor has already placed the text among some genre classifications. With texts that are dated so long ago in literary history, one must be cautious in simply accepting the classifications that are placed by modern scholars. According to <persName>John Finlayson</persName>, Middle English romance has mostly been understood as stories involving themes of courtly love and supernatural elements <ref target="#Finlayson">(57-59)</ref>. <title level="m" rendition="#i">Sir Eglamour of Artois</title> is such a romance, embedded with supernatural elements, such as magic, and beast-slaying adventures.</p>
 	<p> However, what actually constitutes romance is slightly more complicated then that. According to <persName>Yin Liu</persName>, what a medieval author might consider a romance text might not be considered romance by the modern scholar, as a text that was written in the Romance vernacular could already be considered as romance by medieval standards. Therefore, modern scholarship has a hard time definining the genre and separating it with other literary conventions <ref target="#Liu">(335)</ref>. <persName>Finlayson</persName> has noted that especially the genre of "chanson de geste" gets confused with romances <ref target="#Finlayson">(45)</ref>. According to Finlayson, the key difference between the two genres lies in the characterisation of the hero, with the hero from chanson de geste being more rooted in reality, and the hero from romances being the so-called idealized hero <ref target="#Finlayson">(54)</ref>.</p>
 	<p> How much can we say, then, that <title level="m" rendition="#i">Sir Eglamour</title> is a Middle English romance? I personally think that this can be a great point of research, especially in cross-comparison with the other three romances under the manuscript context, which have all been classified as romances. How prominent are the themes of courtly love, adventures, and the supernatural? How realistic or idealised are the heroes?</p>
 	<p> For more information regarding the intersections between chanson de geste and romance, I recommend reading <persName>Sarah Kay</persName>’s <title level="m" rendition="#i">The Chansons de Geste in the Age of Romance: Political Fictions</title>, which dives into topics of politics, hierarchies, and some gender readings.</p>
-	 </div>
-   
+	 </div></body>
+   <back>
    <div>
         <head rendition="#center">Works Cited</head>
         <div xml:id="works_cited">
@@ -302,6 +302,6 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 	  </listBibl>
         </div>
    </div>
-		 </body>
+		 </back>
 	</text>
 </TEI>
