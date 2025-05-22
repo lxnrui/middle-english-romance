@@ -274,11 +274,12 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 
 		<text>
  <body>
+	 <div>
    <p><ref target="sir_eglamour_of_artois.xml">Go to the Transcription of <title level="m" rendition="i">Sir Eglamour of Artois</title></ref></p>
 	  <p><ref target="manuscript_information.xml">About MS. Douce 261</ref></p>
 			<p><ref target="sir_eglamour_info.xml">About the Poem</ref></p>
 			<p><ref target="middle_english_romance.xml">About Middle English Romances</ref></p>
-
+	 </div>
 	<div>
   <p>
     Hi! My name is <persName>Xinrui Li</persName> and I created this page for lovers of Middle English to explore the exciting world of Middle English romances. I transcribed parts of the romance of 
