@@ -208,7 +208,7 @@
 	   <xsl:apply-templates select="@*"/>
 	   <xsl:call-template name="addID"/>
 	   <figure>
-             <img alt="{normalize-space(tei:figDesc)}" src="{tei:graphic/@url}"/>
+             <img src="{tei:graphic/@url}"/>
              <xsl:apply-templates select="*[ not( self::tei:graphic | self::tei:figDesc ) ]"/>
 	   </figure>
 	 </xsl:copy>
