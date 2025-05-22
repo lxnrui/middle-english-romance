@@ -283,7 +283,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 			 <p><ref target="manuscript_information.xml">About MS. Douce 261</ref></p>
 				<p>About the Poem</p>
 			<p><ref target="middle_english_romance.xml">About Middle English romances</ref></p>
-				</div>
+			<p><ref target="sir_eglamour_of_artois.xml" type="button">Go back to the transcription</ref></p></div>
     	
 	 <div>
      	<p>The romance of <title level="m">Sir Eglamour of Artois</title> has been dated to the fourteenth century <ref target="#Tigges">(Tigges 107)</ref>. Due to the incompleteness of digitised MS. Douce 261, I have not been able to transcribe all parts of the story, so it might be hard to grasp what the story is about purely based on my transcriptions. For this, I recommend reading <author>Harriet Hudson</author>'s edition, which is based on the British Library, MS. Cotton Caligula A.ii, as it is published online.</p>
@@ -302,7 +302,6 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 	  </listBibl>
         </div>
    </div>	
-<div><p><ref target="sir_eglamour_of_artois.xml" type="button">Go back to the transcription</ref></p></div>
 			</div>
 			</body>
 	</text>
