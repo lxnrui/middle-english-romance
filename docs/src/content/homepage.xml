@@ -7,7 +7,6 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 		<fileDesc>
 			<titleStmt>
 				<title type="main">Homepage</title>
-				<title type="sub">Let's Digitise Manuscripts!</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Self-Publishing</publisher>
@@ -282,7 +281,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 
 	<div>
   <p>
-    Hi! My name is Xinrui Li and I created this page for lovers of Middle English to explore the exciting world of Middle English romances. I transcribed parts of the romance of 
+    Hi! My name is <persName>Xinrui Li</persName> and I created this page for lovers of Middle English to explore the exciting world of Middle English romances. I transcribed parts of the romance of 
     <title level="m" rendition="i">Sir Eglamour of Artois</title> from the Bodleian Library MS. Douce 261 manuscript and added additional background information to go with the transcription.
   </p>
 
