@@ -13,24 +13,24 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 				<publisher>Self-Publishing</publisher>
 				<pubPlace>Leiden, the Netherlands</pubPlace>
 				<availability status="free">
+					 <p>
+					  The transcription is made by © 2025 Xinrui Li. It is based on images from 
+					  <ref target="https://digital.bodleian.ox.ac.uk/objects/8e01260b-1455-4048-bb69-332600cfd631/">Digital Bodleian</ref>
+					  under a 
+					  <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons BY-NC 4.0 License</ref>. 
+					  Copyright holder: Photo © Bodleian Libraries, University of Oxford, 2018.
+					</p>
 					<p>
-				  The transcription is made by © 2025 Xinrui Li. It is based on images from 
-				  <ref target="https://digital.bodleian.ox.ac.uk/objects/8e01260b-1455-4048-bb69-332600cfd631/">Digital Bodleian</ref>
-				  under a 
-				  <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons BY-NC 4.0 License</ref>. 
-				  Copyright holder: Photo © Bodleian Libraries, University of Oxford, 2018.
-				</p>
-				<p>
-				  <ref target="http://creativecommons.org/licenses/by/3.0/">
-				    <figure style="border-width:0;">
-				      <figDesc>Creative Commons License</figDesc>
-				      <graphic url="http://i.creativecommons.org/l/by/3.0/80x15.png"/>
-				    </figure>
-				  </ref>
-				  <lb/>
-				  TEI Boilerplate is licensed under a 
-				  <ref target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</ref>.
-				</p>
+					    <ref target="http://creativecommons.org/licenses/by/3.0/">
+					    <figure style="border-width:0;">
+					      <figDesc>Creative Commons License</figDesc>
+					      <graphic url="http://i.creativecommons.org/l/by/3.0/80x15.png"/>
+					    </figure>
+					    </ref>
+					  <lb/>
+					  TEI Boilerplate is licensed under a 
+					  <ref target="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</ref>.
+					</p>
 				</availability>
 			</publicationStmt>
 			<sourceDesc>
@@ -56,34 +56,32 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 				 <msContents>
 					  <msItem>
 						   <author xml:lang="en">Anonymous</author>
-						   <title type="supplied">Douce</title>
+						   <title type="supplied">Douce 261</title>
 						   <textLang mainLang="en-m">Middle English</textLang>
 					  </msItem>
 				 </msContents>
 				 <physDesc>
-				  <objectDesc form="codex">
-				   <supportDesc material="paper">
-					 <support>Paper.</support>
-				   </supportDesc>
-				   <layoutDesc>
-					 	<layout columns="1">
-					     <p>In one column of 10 to 11 lines, followed by a blocked illustration.</p>
-				   		</layout>
-				   </layoutDesc>
-				  </objectDesc>
-					<handDesc>
-					   <p>A hand written transcription of a printed version. The handwriting looks like a printed font.</p>
-					</handDesc>
-				  <decoDesc>
-					   <p> Mostly coloured, blocked illustrations, with the exception of folio 040r, which has a non-blocked illustration.</p>
-				  </decoDesc>
+					  <objectDesc form="codex">
+						   <supportDesc material="paper">
+							 <support>Paper.</support>
+						   </supportDesc>
+						   <layoutDesc>
+							 <layout columns="1">
+							     <p>In one column of 10 to 11 lines, followed by a blocked illustration.</p>
+						   	 </layout>
+						   </layoutDesc>
+					  </objectDesc>
+						   <handDesc>
+							     <p>A hand written transcription of a printed version. The handwriting looks like a printed font.</p>
+						   </handDesc>
+					  <decoDesc>
+						   <p> Mostly coloured, blocked illustrations, with the exception of folio 040r, which has a non-blocked illustration.</p>
+					  </decoDesc>
 				 </physDesc>
 				 <history>
-				  <origin>
-				   <p>Written in <origPlace>England</origPlace> in <origDate notAfter="1600"
-				     notBefore="1500">1564.</origDate>
-				   </p>
-				  </origin>
+					  <origin>
+						   <p>Written in <origPlace>England</origPlace> in <origDate notAfter="1600"notBefore="1500">1564.</origDate></p>
+					  </origin>
 				 </history>
 			</msDesc>
 			</sourceDesc>
@@ -329,6 +327,9 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 					color:red;
 				</rendition>
 			</tagsDecl>
+				  <editorialDecl>
+				    <p>Character names are encoded as persName. Place names are encoded as placeName. Difficult terms are annotated as <term/> and referenced to in <gloss/>. Note that the formatting is encoded with the above renditions, but glossed temrs have a special colouring to make them stand out.</p>
+				  </editorialDecl>
 		</encodingDesc>
 	</teiHeader>
 	<text>
@@ -341,12 +342,11 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 			<p><ref target="middle_english_romance.xml">About Middle English Romances</ref></p>
 
 				<pb n="f.026v" type="folio" facs="../images/Bodleian-Library-MS-Douce-261_00014_fol-026v_reduced.jpg"/>
-				<lb/>
 					<l n="64"> Ye are a knyght of lyttell lande</l> 
 					<l n="65"> And moche woulde haue more.</l>
 					<l n="66"> Yf ye ſhoulde to that lady gone</l>
 					<l n="67"> And <term xml:id="t1">ſhewe</term> to her hearte alone</l>
-					<l n="68"> She lightlye woulde let youe fare</l>
+					<l n="68"> She lightlye woulde let youe fare.</l>
 					<l n="69"> The man that hewith ouer hye</l>
 					<l n="70"> Some chyppe falleth in hys cye</l>
 					<l n="71"> Thus fare dothe yt euer.</l>
@@ -355,7 +355,6 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 					<l n="74"> And Dukes that are bolde.</l>
 					<l n="75"> And many a bolde Baron also</l>
 				<pb n="f.028r" type="folio" facs="../images/Bodleian-Library-MS-Douce-261_00015_fol-028r_reduced.jpg"/>
-				<lb/>
 					<l n="135"> But wente there as he lay</l>
 					<l n="136"> Master ſaid hys ſquyerbe of good chere</l>
 					<l n="137"> Here cometh the Earles doughter dere</l>
@@ -368,7 +367,6 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 					<l n="144"> In longynge and in care</l>
 					<l n="145"> Syr ſhe ſayd by gods pytte.</l>
 				<pb n="f.031r" type="folio" facs="../images/Bodleian-Library-MS-Douce-261_00016_fol-031r_reduced.jpg"/>
-				<lb/>
 					<l n="305"> My pryncypall harte thou haste ſlayne</l>
 					<l n="306"> Thou ſhalt yt lyke fall yll</l>
 					<l n="307"> The gyaunte at the chaſes</l>
@@ -376,45 +374,41 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 					<l n="309"> That byllanous was that tyde</l>
 					<l n="310"> Suche a ſtroke at hym he gaffe</l>
 					<l n="311"> That in to the earthe went hys ſtaffe</l>
-					<l n="312"> A foote on euery ſyde</l>
+					<l n="312"> A foote on euery ſyde.</l>
 				<pb n="f.032v" type="folio" facs="../images/Bodleian-Library-MS-Douce-261_00017_fol-032v_reduced.jpg"/>
-				<lb/>
 					<l n="380"> He ſawe the bore come from the Sea</l>
 					<l n="381"> Hys mornynges draught had he tane</l>
 					<l n="382"> The boore ſawe where the knight ſtode</l>
 					<l n="383"> Hys tuſkes he whetted as he were wode</l>
 					<l n="384"> To hym he drewe that tyme</l>
-					<l n="385"> Sir Eglamoure wened well to do</l>
+					<l n="385"> Sir <persName xml:id="Eglamour">Eglamoure</persName> wened well to do</l>
 					<l n="386"> With a ſpeare he rode hym to</l>
 					<l n="387"> As faste as he myght renne</l>
 					<l n="388"> All yf he rode neuer ſo faste</l>
-					<l n="389"> The good ſpeare a ſonder braste</l>
+					<l n="389"> The good ſpeare a ſonder braste.</l>
 				<pb n="f.035v" type="folio" facs="../images/Bodleian-Library-MS-Douce-261_00018_fol-035v_reduced.jpg"/>
-				<lb/>
-					<l n="558"> To Eglamoure ſaide the kynge than</l>
+					<l n="558"> To <persName xml:id="Eglamour">Eglamoure</persName> ſaide the kynge than</l>
 					<l n="559"> Best ys to arme as euery manne</l>
 					<l n="560"> Thys theefe I holde hym woode</l>
-					<l n="561"> Syr Eglamoure ſware by the rode</l>
+					<l n="561"> Syr <persName xml:id="Eglamour">Eglamoure</persName> ſware by the rode</l>
 					<l n="562"> I shall hym aſsaye yf he be woode</l>
 					<l n="563"> Mykell ys goddes myght</l>
 					<l n="564"> He rode a courſe to ſaye hys ſtede</l>
 					<l n="565"> He toke hys helme and forthe he yede</l>
-					<l n="566"> All men prayde for that knyght</l>
+					<l n="566"> All men prayde for that knyght.</l>
 				<pb n="f.038r" type="folio" facs="../images/Bodleian-Library-MS-Douce-261_00019_fol-038r_reduced.jpg"/>
-				<lb/>
 					<l n="705"> Throughe the myght of mary mylde</l>
 					<l n="706"> Agoulde rynge  wyll gyue the</l>
 					<l n="707"> Kepe it well for the loue of me</l>
-					<l n="708"> If Chryste ſende me a chylde</l>
+					<l n="708"> If <persName xml:id="Christ">Chryste</persName> ſende me a chylde</l>
 					<l n="709"> And than in romaunce as we ſaye</l>
-					<l n="710"> To greate Rome he toke the waye</l>
+					<l n="710"> To greate <placeName>Rome</placeName> he toke the waye</l>
 					<l n="711"> To ſeke that Dragon bolde</l>
 					<l n="712"> If he were neuer ſo hardy a knyght</l>
 					<l n="713"> Whan he of the dragon had a fight</l>
 					<l n="714"> Hys herte began to colde</l>
-					<l n="715"> Anone the Dragon waxed wrothe</l>
+					<l n="715"> Anone the Dragon waxed wrothe.</l>
 				<pb n="f.039v" type="folio" facs="../images/Bodleian-Library-MS-Douce-261_00020_fol-039v_reduced.jpg"/>
-				<lb/>
 					<l n="802"> Her maydens wepte erheone</l>
 					<l n="803"> Her mother in a ſowne dyd fall</l>
 					<l n="804"> Right ſo dyd her frendes all</l>
@@ -426,8 +420,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 					<l n="810"> Grete well my lorde whan youe hym ſee</l>
 					<l n="811"> They wepte as they were woode</l>
 				<pb n="f.040r" type="folio" facs="../images/Bodleian-Library-MS-Douce-261_00021_fol-040r_reduced.jpg"/>
-				<lb/>
-					<l n="812"> Laeue we nowe of Syr Eglamoure</l>
+					<l n="812"> Laeue we nowe of Syr <persName xml:id="Eglamour">Eglamoure</persName></l>
 					<l n="813"> And ſpeke we more of that ladye floure</l>
 					<l n="814"> That unknowen wayes yode</l>
 					<l n="815"> The ſhippe droue forthe nyght and daye</l>
@@ -445,14 +438,14 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 					<l n="827"> That lady wepte and ſarde alas</l>
 					<l n="828"> That euer ſhe borne was</l>
 					<l n="829"> My chylde ys taken me from</l>
-					<l n="830"> The kinge of Iſraell on huntynge wente</l>
+					<l n="830"> The kinge of <placeName>Iſraell</placeName> on huntynge wente</l>
 					<l n="831"> He ſawe where the foule lente</l>
 					<l n="832"> And towarde hym gan he go</l>
 					<l n="833"> A gryffon the boke ſayeth that he hyght</l>
-					<l n="834"> That in Iſraell dyd he lyght</l>
+					<l n="834"> That in </placeName>Iſraell</placeName> dyd he lyght</l>
 					<l n="835"> That wrought that ladye wo</l>
 					<l n="836"> The foule I mote hym with hys byll</l>
-					<l n="837"> The CHilde cryed and lyked yll</l>
+					<l n="837"> The Childe cryed and lyked yll</l>
 					<l n="838"> The gryffon leſte hym than</l>
 					<l n="839"> A gentleman to that gan paẞe</l>
 					<l n="840"> In a mantell of ſaerlet lapped yt was</l>
@@ -460,8 +453,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 					<l n="842"> The chylde to as large of lymine and lythe</l>
 					<l n="843"> A gyrdle of golde yt was bounde withe</l>
 				<pb n="f.044r" type="folio" facs="../images/Bodleian-Library-MS-Douce-261_00023_fol-044r_reduced.jpg"/>
-				<lb/>
-					<l n="1110"> And Chrystabell that ladye bright</l>
+					<l n="1110"> And <persName xml:id="Christabel">Chrystabell</persName> that ladye bright</l>
 					<l n="1111"> To churche they her ladde</l>
 					<l n="1112"> Throughe the myght of god he ſpedde</l>
 					<l n="1113"> Hys owne mother there he wedde</l>
@@ -470,17 +462,15 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 					<l n="1116"> She thought on hym that was forlorne</l>
 					<l n="1117"> She wepte lyke to be deadde</l>
 				<pb n="f.046r" type="folio" facs="../images/Bodleian-Library-MS-Douce-261_00024_fol-046r_reduced.jpg"/>
-				<lb/>
 					<l n="1217"> That daye fall haue I ſene</l>
 					<l n="1218"> With as bygge men haue I bene</l>
 					<l n="1219"> And yet well gone my waye</l>
 					<l n="1220"> And yet forſothe ſayde he than</l>
 					<l n="1221"> I wyll do as well as I canne</l>
-					<l n="1222"> with youe ones to playe</l>
+					<l n="1222"> with youe ones to playe.</l>
 				
 		
 				<pb n="f.048v" type="folio" facs="../images/Bodleian-Library-MS-Douce-261_00025_fol-048v_reduced.jpg"/>
-				<lb/>
 				<p><l rendition="#xxxxx-large #center #b"><term xml:id="t2">IHS</term></l>
 				 <l rendition="#xxx-large #center #b">1564</l></p>
 				<lb/>
@@ -488,20 +478,20 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 				<lb/>
 				<p rendition="#xxxx-large #center #b"><term xml:id="t3">XPS</term></p>
 		
-						<div type="glossary">
+					<div type="glossary">
 					        <head>Glossary</head>
 					        <list>
-					 <item xml:id="gloss-t1">
-					  <term ref="#t1">ſhewe</term>: 
-					  <gloss>show</gloss></item>
-					<item xml:id="gloss-t2">
-					  <term ref="#t1">IHS</term>: 
-					  <gloss>Jesus</gloss></item>
-					<item xml:id="gloss-t3">
-					  <term ref="#t1">XPS</term>: 
-					  <gloss>Christ</gloss></item>
-					</list>
-					      </div>
+							<item xml:id="gloss-t1">
+							  <term ref="#t1">ſhewe</term>: 
+							  <gloss>show</gloss></item>
+							<item xml:id="gloss-t2">
+							  <term ref="#t1">IHS</term>: 
+							  <gloss>Jesus</gloss></item>
+							<item xml:id="gloss-t3">
+							  <term ref="#t1">XPS</term>: 
+							  <gloss>Christ</gloss></item>
+						</list>
+					</div>
 			</div>
 		</body>
 	</text>
