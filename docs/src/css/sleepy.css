@@ -594,10 +594,7 @@ fileDesc > extent {
 }
 /* f */
 figure {
-  display: block;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  display: none;
 }
 /* g */
 g {
