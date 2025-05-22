@@ -278,11 +278,12 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 		<text>
 			<body>
 			<div>
+				<div>
 			<p><ref target="homepage.xml">Homepage</ref></p>
 			 <p><ref target="manuscript_information.xml">About MS. Douce 261</ref></p>
 				<p>About the Poem</p>
 			<p><ref target="middle_english_romance.xml">About Middle English romances</ref></p>
-
+				</div>
     	
 	 <div>
      	<p>Due to the incompleteness of the story, it might be hard to grasp what the story is about purely based on my transcriptions. For this, I recommend reading <author>Harriet Hudson</author>'s edition, which is based on the British Library, MS. Cotton Caligula A.ii, as it is published online.</p>
