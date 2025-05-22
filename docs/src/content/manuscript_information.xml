@@ -292,7 +292,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
         <head rendition="#center">Works Cited</head>
         <div xml:id="works_cited">
           <listBibl>
-	  <bibl rendition="#hang" xml:id="Locht"><author>Löcht, Joana van de</author>. <title level="a">Behaving like Print. On the Graphic and Performative Adaptation of Printed Letters in Early Modern Handwriting</title>.<title level="m"> Between Manuscript and Print: Transcultural Perspectives, ca. 1400–1800</title>, edited by Sylvia Brockstieger and Paul Schweitzer-Martin, De Gruyter, <date when="2023">2023</date>,<biblScope unit="pp">139–158</biblScope>. <ref target="https://doi.org/10.1515/9783111242699-006">https://doi.org/10.1515/9783111242699-006</ref>.</bibl>
+	  <bibl rendition="#hang" xml:id="Locht"><author>Löcht, Joana van de</author>. <title level="a">Behaving like Print. On the Graphic and Performative Adaptation of Printed Letters in Early Modern Handwriting</title>.<title level="m"> Between Manuscript and Print: Transcultural Perspectives, ca. 1400–1800</title>, edited by Sylvia Brockstieger and Paul Schweitzer-Martin, De Gruyter, <date when="2023">2023</date>,<biblScope unit="pp">pp. 139–158</biblScope>. <ref target="https://doi.org/10.1515/9783111242699-006">https://doi.org/10.1515/9783111242699-006</ref>.</bibl>
 	  </listBibl>
         </div>
    </div>
