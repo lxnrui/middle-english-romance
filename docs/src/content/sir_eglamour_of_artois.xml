@@ -335,15 +335,14 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 		</encodingDesc>
 	</teiHeader>
 	<text>
-		<body>
-			<div type="romance" xml:id="sireglamour">
-    <index indexName="text"/>
-				
+<front>		
 			<p><ref target="homepage.xml">Homepage</ref></p>
 			<p><ref target="manuscript_information.xml">About MS. Douce 261</ref></p>
 			<p><ref target="sir_eglamour_info.xml">About the Poem</ref></p>
-			<p><ref target="middle_english_romance.xml">About Middle English Romances</ref></p>
-				
+			<p><ref target="middle_english_romance.xml">About Middle English Romances</ref></p> 
+				</front> <body>
+	<div type="romance" xml:id="sireglamour">
+    <index indexName="text"/>
 				<pb n="f.026v" type="folio" facs="../images/Bodleian-Library-MS-Douce-261_00014_fol-026v_reduced.jpg"/>
 				
 					<l n="64"> Ye are a knyght of lyttell lande</l> 
@@ -501,7 +500,7 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 				<p rendition="#center">Here endeth Syr Eglamoure of Artois</p>
 				<lb/>
 				<p rendition="#xxxx-large #center #b"><term xml:id="t3">XPS</term></p>
-		
+		</div></body><back>
 						<div type="glossary">
 					        <head>Glossary</head>
 					        <list>
@@ -515,8 +514,6 @@ xmlns:html="http://www.w3.org/1999/xhtml">
 					  <term ref="#t1">XPS</term>: 
 					  <gloss>Christ</gloss></item>
 					</list>
-					      </div>
-			</div>
-		</body>
+					      </div></back>
 	</text>
 </TEI>
